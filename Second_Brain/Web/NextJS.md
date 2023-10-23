@@ -1,0 +1,1 @@
+[Kirimase](https://github.com/nicoalbanese/kirimase) - CLI tool for building full-stack Next.js apps faster
