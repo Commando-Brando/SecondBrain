@@ -32,43 +32,31 @@
             }
           },
           {
-            "id": "eedb71c54cfb4bd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02772a3d17d8b610",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "722605341ad5afaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases.md",
+                "file": "Readings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57dada644b67dcea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases.md",
+                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases.md"
+                "file": "Designing Data Intensive Applications/Data Intensive Applications.md"
               }
             }
           }
@@ -195,12 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "722605341ad5afaf",
+  "active": "57dada644b67dcea",
   "lastOpenFiles": [
-    "Projects.md",
+    "Designing Data Intensive Applications/Further Exploration.md",
+    "Designing Data Intensive Applications/Data Intensive Applications.md",
+    "Designing Data Intensive Applications",
     "Readings.md",
-    "Untitled",
     "Databases.md",
+    "Projects.md",
     "2023-10-23.md",
     "Web/Web Performance.md",
     "Databases/General.md",
