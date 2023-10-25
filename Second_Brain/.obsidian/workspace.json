@@ -11,11 +11,40 @@
             "id": "62dc02a68e97452e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86d17e9bc429acfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Startup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ae776c83745daa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Startup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Startup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Startup.md"
+              }
             }
           }
         ]
@@ -138,10 +171,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62dc02a68e97452e",
+  "active": "86d17e9bc429acfb",
   "lastOpenFiles": [
+    "Cyber Security.md",
+    "Untitled 1.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
+    "Designing Data Intensive Applications/Further Exploration.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+    "System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+    "System Design Insiders Guide",
     "Designing Data Intensive Applications/Glossary.md",
     "Career.md",
     "Web/NextJS.md",
@@ -151,7 +189,6 @@
     "Code Styling.md",
     "Projects.md",
     "Hardware.md",
-    "Designing Data Intensive Applications/Further Exploration.md",
     "Startup.md",
     "Social Apps.md",
     "Microsoft.md",
