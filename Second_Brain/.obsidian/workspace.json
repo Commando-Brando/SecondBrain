@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "71450a8ea5b55af5",
+        "id": "33fc251e41574a72",
         "type": "tabs",
         "children": [
           {
-            "id": "6480dd41d86faa2b",
+            "id": "f746bc3b0a78674e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/NextJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76a412bc409c8275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Web Performance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "722605341ad5afaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57dada644b67dcea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designing Data Intensive Applications/Data Intensive Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Designing Data Intensive Applications/Data Intensive Applications.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,19 +138,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57dada644b67dcea",
+  "active": "f746bc3b0a78674e",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Further Exploration.md",
-    "Designing Data Intensive Applications/Data Intensive Applications.md",
-    "Designing Data Intensive Applications",
-    "Readings.md",
-    "Databases.md",
-    "Projects.md",
-    "2023-10-23.md",
+    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+    "Designing Data Intensive Applications/Glossary.md",
+    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
+    "Career.md",
+    "Web/NextJS.md",
     "Web/Web Performance.md",
+    "AI.md",
+    "Readings.md",
+    "Code Styling.md",
+    "Projects.md",
+    "Hardware.md",
+    "Designing Data Intensive Applications/Further Exploration.md",
+    "Startup.md",
+    "Social Apps.md",
+    "Microsoft.md",
+    "Encryption Encoding.md",
+    "Designing Data Intensive Applications",
+    "Databases.md",
+    "2023-10-23.md",
     "Databases/General.md",
     "Performance.md",
-    "Web/NextJS.md",
     "Web/NextJs/Untitled.md",
     "Web/NextJs",
     "Projects",
