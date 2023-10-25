@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33fc251e41574a72",
+        "id": "8db81d57824f2e12",
         "type": "tabs",
         "children": [
           {
-            "id": "f746bc3b0a78674e",
+            "id": "62dc02a68e97452e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,11 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f746bc3b0a78674e",
+  "active": "62dc02a68e97452e",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Designing Data Intensive Applications/Glossary.md",
-    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Career.md",
     "Web/NextJS.md",
     "Web/Web Performance.md",
