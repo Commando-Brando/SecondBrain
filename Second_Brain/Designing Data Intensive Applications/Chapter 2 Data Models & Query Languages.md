@@ -31,3 +31,43 @@ db.observations.aggregate([
 ]);
 ```
 >The aggregation pipeline language is similar in expressiveness to a subset of SQL, but it uses a JSON-based syntax rather than SQL’s English-sentence-style syntax; the difference is perhaps a matter of taste. The moral of the story is that a NoSQL system may find itself accidentally reinventing SQL, albeit in disguise
+
+
+### When To Use Which Model
+
+**Document** - use whenever your application mostly has one-to-many relationships (tree-structured data) or no relationships between records.
+
+**Relational** - when there are clear relationships in data and many-to-one relationships and/or simple many-to-many relationships
+
+**Graph** - when there are many many-to-many relationships 
+	Examples:
+	- Social Graphs: modeling people who know each other or are friends or followers
+	- Web Graph: vertices are web pages and edges indicate HTML links to other pages
+	- Road or rail networks
+
+>Facebook maintains a single graph with many different types of vertices and edges: vertices represent people, locations, events, check-ins, and comments made by users; edges indicate which people are friends with each other, which check-in happened in which location, who commented on which post, who attended which event, and so on.
+
+## Graph Models
+
+### Property Graph
+
+- vertices & edges are objects that each contain their own JSON properties
+- any vertices can be connected to another via an edge that is bidirectional
+- edges have labels representing the type of relationship
+- allows you to store different kinds of data in a single graph
+- edges stored in one table and vertices in another, edges have a `tail_vertex` & `head_vertex`columns
+- can use Cypher declarative language or SQL to query graph database (prefer Cypher)
+
+### Triple-Stores and SPARQL
+
+Triple stores are very similar to property graphs.
+In a triple-store, all information is stored in the form of very simple three-part statements: (subject, predicate, object). For example, in the triple `(Jim, likes, bananas)`, Jim is the subject, likes is the predicate (verb), and bananas is the object.
+
+The subject of a triple is equivalent to a vertex in a graph. The object is one of two things:
+
+1. A value in a primitive datatype, such as a string or a number. In that case, the predicate and object of the triple are equivalent to the key and value of a property on the subject vertex. For example, `(Lucy, age, 33)` is like a vertex Lucy with properties `{"age":33}`.
+2. Another vertex in the graph. In that case, the predicate is an edge in the graph, the subject is the tail vertex, and the object is the head vertex. For example, in `(Lucy, marriedTo, Alain)` the subject and object Lucy and Alain are both vertices, and the predicate `marriedTo` is the label of the edge that connects them.
+
+>The `semantic web` is fundamentally a simple and reasonable idea: websites already publish information as text and pictures for humans to read, so why don’t they also publish information as machine-readable data for computers to read?
+
+SPARQL is a query language for triples.
