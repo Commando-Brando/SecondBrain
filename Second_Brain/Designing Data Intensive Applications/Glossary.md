@@ -37,3 +37,43 @@ retrieved, searched, and processed in various ways)
 
 **Non-Functional Requirements** - (general properties like security, reliability, compliance, scalability, compatibility, and maintainability). In this chapter we discussed reliability, scalability, and maintainability in detail. 
 
+**Memtable** 
+
+**Bloom Filter** - a memory-efficient data structure for approximating the contents of a set. It can tell you if a key does not appear in the database, and thus saves many unnecessary disk reads for nonexistent keys.
+
+Hashed Index
+- Compaction
+- Segment File
+SSTable/LSM-Tree
+
+*Heap File* - where a value of an index key references if the value is not the actual row/document/vertice itself. 
+
+*Clustered Index* - an index that stores the actual row with the index key instead of referencing somewhere else like a heap file. It allows for faster reads than Heap File but incurs more overheads and thereby slower writes
+
+*Covering Index* - a compromise between heap file and clustered index where some columns of a referenced row are stored in the index which makes reads faster when the desired columns are in the index.
+
+Apache Lucene
+
+Fuzzy Index
+
+*Levenshtein Distance/Automation*
+
+B-Tree
+Fractal Tree - a B-Tree variant that borrows some log-structured ideas to reduce disk seeks
+
+Red-Black Tree
+AVL Tree
+B-Tree
+
+Full-Text Search
+Postings List/Inverted Index
+
+Elastic Search
+
+Transaction processing
+
+## Key Value Stores
+
+*Memcached*
+
+*Redis*

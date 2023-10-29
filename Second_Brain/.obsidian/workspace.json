@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "9181bd82476e2586",
+        "id": "71450a8ea5b55af5",
         "type": "tabs",
         "children": [
           {
-            "id": "5c7fc9d602f3b8c3",
+            "id": "722605341ad5afaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Further Exploration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c6597641bd3f21c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cc0d6e8420d1d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md"
+              }
             }
           }
         ]
@@ -138,34 +171,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c7fc9d602f3b8c3",
+  "active": "5cc0d6e8420d1d8d",
   "lastOpenFiles": [
-    "Cyber Security.md",
-    "Startup.md",
+    "Designing Data Intensive Applications/Glossary.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
-    "Untitled 1.md",
+    "Pasted image 20231027151211.png",
     "Designing Data Intensive Applications/Further Exploration.md",
-    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+    "Pasted image 20231027143724.png",
+    "Pasted image 20231027143652.png",
+    "Web/Web Performance.md",
+    "Readings.md",
+    "Designing Data Intensive Applications/Data Intensive Applications.md",
     "System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
     "System Design Insiders Guide",
-    "Designing Data Intensive Applications/Glossary.md",
-    "Career.md",
-    "Web/NextJS.md",
-    "Web/Web Performance.md",
-    "AI.md",
-    "Readings.md",
-    "Code Styling.md",
-    "Projects.md",
-    "Hardware.md",
+    "Startup.md",
     "Social Apps.md",
     "Microsoft.md",
+    "Hardware.md",
     "Encryption Encoding.md",
+    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
+    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+    "Cyber Security.md",
+    "Code Styling.md",
+    "Career.md",
+    "AI.md",
     "Designing Data Intensive Applications",
     "Databases.md",
+    "Projects.md",
     "2023-10-23.md",
     "Databases/General.md",
     "Performance.md",
+    "Web/NextJS.md",
     "Web/NextJs/Untitled.md",
     "Web/NextJs",
     "Projects",
