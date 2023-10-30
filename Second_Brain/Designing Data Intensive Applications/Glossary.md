@@ -28,12 +28,8 @@
 
 **Elastic** - a system is elastic whenever it can automatically add computing resources when they detect an increase in load. Elastic systems are good for when the load is highly unpredictable but better to manually scale otherwise since elasticity requires more complexity
 
-Stateful
 
-Stateless
-
-**Functional Requirements** - (what it should do, such as allowing data to be stored,
-retrieved, searched, and processed in various ways)
+**Functional Requirements** - what it should do, such as allowing data to be stored, retrieved, searched, and processed in various ways
 
 **Non-Functional Requirements** - (general properties like security, reliability, compliance, scalability, compatibility, and maintainability). In this chapter we discussed reliability, scalability, and maintainability in detail. 
 
@@ -71,6 +67,10 @@ Postings List/Inverted Index
 Elastic Search
 
 Transaction processing
+
+Stateful
+
+Stateless
 
 ## Key Value Stores
 

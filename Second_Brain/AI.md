@@ -7,4 +7,6 @@
 ### LLM
 
 **[GoLIE](https://huggingface.co/HiTZ/GoLLIE-34B)** - LLM that reads text and turns them into schema for code 
+[LLM-FP4: 4-Bit Floating-Point Quantized Transformers](https://arxiv.org/abs/2310.16836v1)
+
 

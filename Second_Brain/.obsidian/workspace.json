@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "71450a8ea5b55af5",
+        "id": "5409148a8e39f245",
         "type": "tabs",
         "children": [
           {
-            "id": "722605341ad5afaf",
+            "id": "7f5a55ea383e3ff3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Designing Data Intensive Applications/Further Exploration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c6597641bd3f21c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Designing Data Intensive Applications/Glossary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cc0d6e8420d1d8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,14 +138,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5cc0d6e8420d1d8d",
+  "active": "7f5a55ea383e3ff3",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Glossary.md",
+    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "Pasted image 20231027151211.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231030165617.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231030152603.png",
     "Designing Data Intensive Applications/Further Exploration.md",
-    "Pasted image 20231027143724.png",
-    "Pasted image 20231027143652.png",
+    "Designing Data Intensive Applications/Glossary.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231027151211.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231027143652.png",
+    "AI.md",
+    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
+    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+    "Designing Data Intensive Applications/Images",
+    "Designing Data Intensive Applications/Images/Pasted image 20231027143724.png",
     "Web/Web Performance.md",
     "Readings.md",
     "Designing Data Intensive Applications/Data Intensive Applications.md",
@@ -189,12 +166,9 @@
     "Microsoft.md",
     "Hardware.md",
     "Encryption Encoding.md",
-    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
-    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Cyber Security.md",
     "Code Styling.md",
     "Career.md",
-    "AI.md",
     "Designing Data Intensive Applications",
     "Databases.md",
     "Projects.md",
