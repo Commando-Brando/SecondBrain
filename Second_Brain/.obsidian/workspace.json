@@ -140,6 +140,8 @@
   },
   "active": "7f5a55ea383e3ff3",
   "lastOpenFiles": [
+    "NixOS/NixOS.md",
+    "NixOS",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231030165617.png",
@@ -175,8 +177,6 @@
     "2023-10-23.md",
     "Databases/General.md",
     "Performance.md",
-    "Web/NextJS.md",
-    "Web/NextJs/Untitled.md",
     "Web/NextJs",
     "Projects",
     "Web",
