@@ -77,3 +77,7 @@ Stateless
 *Memcached*
 
 *Redis*
+
+REST - (Representational State Transfer)
+
+RPC - (remote procedure calls) 

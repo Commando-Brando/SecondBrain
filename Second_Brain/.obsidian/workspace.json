@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5409148a8e39f245",
+        "id": "3b55f2818bc46142",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5a55ea383e3ff3",
+            "id": "05e2b7c49cafc82f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,26 +138,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f5a55ea383e3ff3",
+  "active": "05e2b7c49cafc82f",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
+    "Designing Data Intensive Applications/Glossary.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231031125249.png",
+    "Designing Data Intensive Applications/Further Exploration.md",
     "NixOS/NixOS.md",
     "NixOS",
-    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231030165617.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030152603.png",
-    "Designing Data Intensive Applications/Further Exploration.md",
-    "Designing Data Intensive Applications/Glossary.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231027151211.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231027143652.png",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Designing Data Intensive Applications/Images",
-    "Designing Data Intensive Applications/Images/Pasted image 20231027143724.png",
     "Web/Web Performance.md",
     "Readings.md",
     "Designing Data Intensive Applications/Data Intensive Applications.md",
