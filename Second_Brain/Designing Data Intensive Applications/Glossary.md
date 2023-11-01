@@ -72,6 +72,8 @@ Stateful
 
 Stateless
 
+Concurrency vs Parallelism
+
 ## Key Value Stores
 
 *Memcached*

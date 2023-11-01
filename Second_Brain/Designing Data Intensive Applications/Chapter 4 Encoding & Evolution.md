@@ -92,7 +92,7 @@ schema-on-read JSON databases provide (see “Schema flexibility in the document
 model” on page 39), while also providing better guarantees about your data and better
 tooling.
 
-## Data Flows
+## Data Flows 
 
 When it comes to forward/backward compatibility for maintaining database integrity when new and old versions of apps are updating database records it is important to note and think about handling that in the application logic so that no data is lost during translation. For example, if an old version updates a record that contains a new field it is not aware of it should not lose the new field during data translation.
 
@@ -101,3 +101,56 @@ When it comes to forward/backward compatibility for maintaining database integri
 Applications update and evolve quickly, data in your database does not and old data may remain for a long time, therefore there is a saying, *data outlives code*
 
 Rewriting (migrating) data into a new schema is possible bit it is an expensive operation to do.
+
+## REST & RPC
+
+In the client server model where the server exposes some API to be called by the client we call that API a service. When HTTP is used as the underlying protocol for talking to a service it is called a *web service*. 
+
+REST is not a protocol, but rather a design philosophy that builds upon the principles
+of HTTP. It emphasizes simple data formats, using URLs for identifying
+resources and using HTTP features for cache control, authentication, and content
+type negotiation. REST has been gaining popularity compared to SOAP, at least in
+the context of cross-organizational service integration, and is often associated
+with microservices. An API designed according to the principles of REST is
+called RESTful.
+
+SOAP is an XML-based protocol for making network API requests.vii
+Although it is most commonly used over HTTP, it aims to be independent from
+HTTP and avoids using most HTTP features. Instead, it comes with a sprawling and
+complex multitude of related standards (the web service framework, known as WS-*)
+that add various features 
+
+The API of a SOAP web service is described using an XML-based language called the
+Web Services Description Language, or WSDL. WSDL enables code generation so
+that a client can access a remote service using local classes and method calls (which
+are encoded to XML messages and decoded again by the framework). This is useful in
+statically typed programming languages, but less so in dynamically typed ones (see
+“Code generation and dynamically typed languages” on page 127).
+
+As WSDL is not designed to be human-readable, and as SOAP messages are often too
+complex to construct manually, users of SOAP rely heavily on tool support, code
+generation, and IDEs. For users of programming languages that are not supported
+by SOAP vendors, integration with SOAP services is difficult
+
+RPC - (remote procedure call) The RPC model tries to make a request to a remote network service look the same as calling a function or method in your programming language, within the same process (this abstraction is called location transparency). There are problems with this because it adds coupling between the language and the network request itself. Some datatypes may function differently in different languages which can be problematic for RPC. Network request differ greatly from how functions work in general so that can make working with it difficult since a lot of different things can happen to network request which should be debugged differently then a normal function. [pg134]
+
+There are still good applications of RPC since gRPC is used for Protobuf a lot, gRPC supports *streams*, multiple requests/responses instead of one of each. Some of the frameworks support service discovery, allowing a client to find out at which IP address and port number it can find a particular service
+
+There is no agreement on how API versioning should work (i.e., how a client can
+indicate which version of the API it wants to use [48]). For RESTful APIs, common
+approaches are to use a version number in the URL or in the HTTP Accept header.
+
+## Message Passing Data Flow
+
+A message broker is an intermediatory between a client and server. The client and server generally are services themselves that are communicating.  Popular open source Message Brokers are RabbitMQ & Apache Kafka.
+
+The detailed delivery semantics vary by implementation and configuration, but in
+general, message brokers are used as follows: one process sends a message to a named
+queue or topic, and the broker ensures that the message is delivered to one or more
+consumers of or subscribers to that queue or topic. There can be many producers and
+many consumers on the same topic
+
+A topic provides only one-way dataflow. However, a consumer may itself publish
+messages to another topic (so you can chain them together, as we shall see in Chapter
+11), or to a reply queue that is consumed by the sender of the original message
+(allowing a request/response dataflow, similar to RPC).

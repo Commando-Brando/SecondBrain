@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b55f2818bc46142",
+        "id": "4f94e338b639ff2d",
         "type": "tabs",
         "children": [
           {
-            "id": "05e2b7c49cafc82f",
+            "id": "0b6054652c3a017a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,14 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05e2b7c49cafc82f",
+  "active": "0b6054652c3a017a",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Further Exploration.md",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+    "Career.md",
+    "Designing Data Intensive Applications/Glossary.md",
+    "Python/FastAPI.md",
+    "Python",
     "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
-    "Designing Data Intensive Applications/Glossary.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231031125249.png",
-    "Designing Data Intensive Applications/Further Exploration.md",
     "NixOS/NixOS.md",
     "NixOS",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
@@ -172,13 +175,11 @@
     "Encryption Encoding.md",
     "Cyber Security.md",
     "Code Styling.md",
-    "Career.md",
     "Designing Data Intensive Applications",
     "Databases.md",
     "Projects.md",
     "2023-10-23.md",
     "Databases/General.md",
-    "Performance.md",
     "Web/NextJs",
     "Projects",
     "Web",

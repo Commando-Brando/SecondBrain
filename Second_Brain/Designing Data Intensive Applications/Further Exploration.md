@@ -12,3 +12,5 @@
 	- Even on SSDs there are issues because random writes shorten the lifespan compared to sequential
 - Page 99 talks about memory bandwidth in relation to CPU
 - What is Hadoop
+- What is AJAX & XMLHttpRequest (apparently they are strongly related)
+- Define middleware
