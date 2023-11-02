@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dc50a6e26cac10d8",
+        "id": "4091f752f8f455a7",
         "type": "tabs",
         "children": [
           {
-            "id": "86d6a24ef54a05f8",
+            "id": "61f072899e36ddc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 5 Replication.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 5 Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 5 Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 5 Replication.md"
+              }
             }
           }
         ]
@@ -138,11 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86d6a24ef54a05f8",
+  "active": "61f072899e36ddc1",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
-    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Further Exploration.md",
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Databases.md",
+    "Untitled.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
+    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Career.md",
     "Designing Data Intensive Applications/Glossary.md",
     "Python/FastAPI.md",
@@ -159,7 +170,6 @@
     "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030152603.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231027151211.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231027143652.png",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
@@ -177,10 +187,8 @@
     "Cyber Security.md",
     "Code Styling.md",
     "Designing Data Intensive Applications",
-    "Databases.md",
     "Projects.md",
     "2023-10-23.md",
-    "Databases/General.md",
     "Web/NextJs",
     "Projects",
     "Web",
