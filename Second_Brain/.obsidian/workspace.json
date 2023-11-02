@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f94e338b639ff2d",
+        "id": "dc50a6e26cac10d8",
         "type": "tabs",
         "children": [
           {
-            "id": "0b6054652c3a017a",
+            "id": "86d6a24ef54a05f8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.5
   },
   "right": {
     "id": "18046352c32c198e",
@@ -138,10 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b6054652c3a017a",
+  "active": "86d6a24ef54a05f8",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Further Exploration.md",
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+    "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
     "Designing Data Intensive Applications/Glossary.md",
     "Python/FastAPI.md",

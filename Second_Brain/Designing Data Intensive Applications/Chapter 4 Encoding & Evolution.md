@@ -5,10 +5,6 @@ backward compatibility - Newer code can read data that was written by older code
 
 Forward compatibility - Older code can read data that was written by newer code.
 
-REST - (Representational State Transfer)
-
-RPC - (remote procedure calls) 
-
 Programs usually work with data in (at least) two different representations:
 1. In memory, data is kept in objects, structs, lists, arrays, hash tables, trees, and so
 on. These data structures are optimized for efficient access and manipulation by
@@ -154,3 +150,24 @@ A topic provides only one-way dataflow. However, a consumer may itself publish
 messages to another topic (so you can chain them together, as we shall see in Chapter
 11), or to a reply queue that is consumed by the sender of the original message
 (allowing a request/response dataflow, similar to RPC).
+
+### Distributed Actor Frameworks 
+
+pg138-139
+
+Actor Model - a programming model for concurrency in a single process. Rather
+than dealing directly with threads (and the associated problems of race conditions,
+locking, and deadlock), logic is encapsulated in actors. Each actor typically represents
+one client or entity, it may have some local state (which is not shared with any other
+actor), and it communicates with other actors by sending and receiving asynchronous
+messages. Message delivery is not guaranteed: in certain error scenarios, messages
+will be lost. Since each actor processes only one message at a time, it doesn’t
+need to worry about threads, and each actor can be scheduled independently by the
+framework.
+
+distributed actor frameworks - programming model is used to scale an application
+across multiple nodes. The same message-passing mechanism is used, no matter
+whether the sender and recipient are on the same node or different nodes. If they are
+on different nodes, the message is transparently encoded into a byte sequence, sent
+over the network, and decoded on the other side
+
