@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf35d115752ada89",
+        "id": "3d02b5d5daf7ecec",
         "type": "tabs",
         "children": [
           {
-            "id": "69176aaf6df7e2b7",
+            "id": "445eee2cf0af049e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,14 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69176aaf6df7e2b7",
+  "active": "445eee2cf0af049e",
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Academic Research/Anki LLM/Articles.md",
+    "Academic Research/Anki LLM/Literature Review.md",
     "Academic Research/Anki LLM/Images",
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Academic Research/Anki LLM/Literature Review.md",
-    "Academic Research/Anki LLM/Articles.md",
     "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
     "Academic Research/Academic Research.md",

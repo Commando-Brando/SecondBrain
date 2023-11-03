@@ -47,6 +47,13 @@ Review Outline (Chronological):
 
 2020 `Spaced Repetition: towards more effective learning in STEM` - 10 citations - made a react web app to use to study for spaced repetition, showed increase in mean score for all the students who used it
 
+2021 `Enhanced Learning and Retention of Medical Knowledge Using the Mobile Flash card Application Anki` - 24 citations - showed effectiveness in increasing test scores of students and also showed that third party decks/institution made decks more popular than individual created - an assumption to be made could be that students are more likely to participate in spaced repetition if they don't have to make the cards themselves
+
+2022 `Does the Use of Pre‐made Digital Flashcards Aid in Medical Students Learning of Anatomy` - 0 citations - showed effectiveness in increasing test scores of students and also showed that third party decks/institution made decks more popular than individual created - an assumption to be made could be that students are more likely to participate in spaced repetition if they don't have to make the cards themselves
+
+2023 `The Ultimate Study Partner: Using A Custom Chatbot To Optimize Student Studying During Law School` - 0 citations - author describes using LLM to make law school anki cards for studying and that he found it effective
+
+2023 `Anki Tagger: A Generative AI Tool for Aligning Third-Party Resources to Preclinical Curriculum` - 0 citations - author shows that LLM is effective at tagging (categorizing) third party anki decks to fit education course material
 #### Consideration
 
 The 2020 study was using a custom built webapp it probably is worth noting the convenience of anki in comparison to a custom made web app and because anki is cross platform which may cause an increase in the amount of students who participate in the spaced repetition learning.
