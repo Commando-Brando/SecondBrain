@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f94e338b639ff2d",
+        "id": "e7d37a37faa9612c",
         "type": "tabs",
         "children": [
           {
-            "id": "0b6054652c3a017a",
+            "id": "908d829c13ea7860",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b6054652c3a017a",
+  "active": "908d829c13ea7860",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Further Exploration.md",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Academic Research/Anki LLM/Articles.md",
+    "Academic Research/Anki LLM/References.md",
+    "Pasted image 20231103123214.png",
+    "Academic Research/Academic Research.md",
+    "().md",
+    "Academic Research/Anki LLM",
+    "Academic Research",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+    "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
     "Designing Data Intensive Applications/Glossary.md",
     "Python/FastAPI.md",
@@ -158,7 +166,6 @@
     "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030152603.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231027151211.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231027143652.png",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
@@ -174,15 +181,9 @@
     "Hardware.md",
     "Encryption Encoding.md",
     "Cyber Security.md",
-    "Code Styling.md",
     "Designing Data Intensive Applications",
-    "Databases.md",
-    "Projects.md",
-    "2023-10-23.md",
-    "Databases/General.md",
     "Web/NextJs",
     "Projects",
-    "Web",
-    "Databases"
+    "Web"
   ]
 }
