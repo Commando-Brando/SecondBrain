@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7d37a37faa9612c",
+        "id": "bf35d115752ada89",
         "type": "tabs",
         "children": [
           {
-            "id": "908d829c13ea7860",
+            "id": "69176aaf6df7e2b7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,15 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "908d829c13ea7860",
+  "active": "69176aaf6df7e2b7",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Academic Research/Anki LLM/Images",
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Academic Research/Anki LLM/Literature Review.md",
     "Academic Research/Anki LLM/Articles.md",
     "Academic Research/Anki LLM/References.md",
-    "Pasted image 20231103123214.png",
+    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
     "Academic Research/Academic Research.md",
     "().md",
     "Academic Research/Anki LLM",
@@ -181,10 +182,8 @@
     "Social Apps.md",
     "Microsoft.md",
     "Hardware.md",
-    "Encryption Encoding.md",
     "Designing Data Intensive Applications",
     "Web/NextJs",
-    "Projects",
-    "Web"
+    "Projects"
   ]
 }
