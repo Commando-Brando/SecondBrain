@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "dc50a6e26cac10d8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "86d6a24ef54a05f8",
-=======
         "id": "3803c7929add8e7d",
         "type": "tabs",
         "children": [
           {
             "id": "6f8f52793abbe273",
->>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "177230f8b8763aaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 300
   },
   "right": {
     "id": "18046352c32c198e",
@@ -163,25 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "177230f8b8763aaf",
-=======
   "active": "6f8f52793abbe273",
->>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
   "lastOpenFiles": [
-    "Databases.md",
     "Self-Hosted.md",
-    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "Academic Research/Anki LLM/References.md",
-    "Academic Research/Anki LLM/Images",
-    "Academic Research/Anki LLM/Literature Review.md",
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Academic Research/Anki LLM/Articles.md",
-    "Academic Research/Anki LLM",
-    "Academic Research/Academic Research.md",
-    "Academic Research",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Academic Research/Anki LLM/Images",
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Academic Research/Anki LLM/References.md",
+    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
+    "Academic Research/Academic Research.md",
+    "().md",
+    "Academic Research/Anki LLM",
+    "Academic Research",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
