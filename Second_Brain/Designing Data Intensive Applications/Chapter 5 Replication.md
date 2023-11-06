@@ -125,3 +125,30 @@ Cons:
 
 What is Real-time collaborative editing?
 Applications that allow several people to edit a document simultaneously. Think google docs
+
+How to avoid conflicts in a multi-leader based system?
+
+For a given record or set of records, route all the data to the same leader, perhaps whichever is closet to the user. If the user moves to a different location or their local leader fails then conflict avoidance may break down.
+
+How do multi-leader frameworks approach custom conflict resolution?
+
+For writes generally they let you write some custom application code to resolve the conflict but these are fast and done in the background without any user prompt
+
+For reads we can write application code and/or send the records and their versions to the user for them to decide how to resolve the conflict
+
+Are there good automatic conflict resolution processes?
+
+Yes there are some but for niche use cases that have not been implemented in data store solutions yet. One of them is Operational Transformation designed particularly for concurrent editing of an ordered list of items, such as the list of characters that constitute a text document and is used by collaborative text editing system like google docs. 
+
+Others to explore
+- Mergeable persistent data structures
+- Conflict-free replicated datatypes (CRDTs)
+
+What is a replication topology?
+
+a design that describes the communication paths along which writes are propagated from one node to another
+
+
+
+
+

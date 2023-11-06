@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "dc50a6e26cac10d8",
+        "id": "3b3b2eacc3904836",
         "type": "tabs",
         "children": [
           {
-            "id": "86d6a24ef54a05f8",
-=======
-        "id": "3803c7929add8e7d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f8f52793abbe273",
->>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
+            "id": "75ab3304a9d0a734",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "177230f8b8763aaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Hosted.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Hosted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-Hosted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Self-Hosted.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -163,14 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "177230f8b8763aaf",
-=======
-  "active": "6f8f52793abbe273",
->>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
+  "active": "75ab3304a9d0a734",
   "lastOpenFiles": [
-    "Databases.md",
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Self-Hosted.md",
+    "Databases.md",
     "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
     "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images",
@@ -181,7 +153,6 @@
     "Academic Research",
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
