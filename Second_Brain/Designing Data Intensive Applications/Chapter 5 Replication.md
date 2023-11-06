@@ -105,3 +105,23 @@ A process that guarantees a user making multiple reads in a row won't have each 
 What are consistent prefix reads in leader-based replication?
 
 A problem for sharded databases where multiple writes going to different shards are processed in different orders than the order that the requests were made. If people are text chatting and their messages go to different shards, the person's reply may be processed first so when it is read the reply whos up before the question. One possible solution is to make sure causally related writes are sent to the same replica.
+
+## Multi-Leader Replication
+
+- tries to solve the problem of one leader write bottleneck
+- also known as master-master or active/active replication
+- rarely makes sense to use a multi-leader setup within a single data center because the benefits rarely outweigh the added complexity
+
+Pros:
+- performance increase perceived by user
+- no need for failover from follower to leader if one data center goes down other leaders still exist'
+- better tolerate network problems better
+- good for systems that need to continue to work offline
+Cons:
+- require conflict resolution system for writing between leaders which has some serious pitfalls with auto-incrementing keys, triggers, and integrity constraints
+- significant additional system complexity
+- hard to get right, infamously difficult
+- hard to deal with 2 users writing to change the same thing at the same time
+
+What is Real-time collaborative editing?
+Applications that allow several people to edit a document simultaneously. Think google docs

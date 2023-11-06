@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "dc50a6e26cac10d8",
         "type": "tabs",
         "children": [
           {
             "id": "86d6a24ef54a05f8",
+=======
+        "id": "3803c7929add8e7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f8f52793abbe273",
+>>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -155,7 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "177230f8b8763aaf",
+=======
+  "active": "6f8f52793abbe273",
+>>>>>>> ab4be7e4f0892a94c1b3883a1c1127191302928d
   "lastOpenFiles": [
     "Databases.md",
     "Self-Hosted.md",
