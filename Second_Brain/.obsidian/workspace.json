@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "3803c7929add8e7d",
+        "id": "b7b3646803a84ba5",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8f52793abbe273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-Hosted.md",
-                "mode": "source",
-                "source": false
-              }
-=======
-        "id": "3b3b2eacc3904836",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "75ab3304a9d0a734",
+            "id": "b387f32b1a46b00c",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
->>>>>>> 5ec9680290c3abae01eb5a9165667e0b80e4c619
             }
           }
         ]
@@ -154,36 +138,23 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "6f8f52793abbe273",
+  "active": "d31f484b331c7c53",
   "lastOpenFiles": [
-    "Self-Hosted.md",
+    "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
     "Designing Data Intensive Applications/Chapter 5 Replication.md",
-=======
-  "active": "75ab3304a9d0a734",
-  "lastOpenFiles": [
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
     "Self-Hosted.md",
-    "Databases.md",
-    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "Academic Research/Anki LLM/References.md",
-    "Academic Research/Anki LLM/Images",
-    "Academic Research/Anki LLM/Literature Review.md",
->>>>>>> 5ec9680290c3abae01eb5a9165667e0b80e4c619
     "Academic Research/Anki LLM/Articles.md",
     "Academic Research/Anki LLM/Literature Review.md",
     "Academic Research/Anki LLM/Images",
     "Untitled.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-<<<<<<< HEAD
     "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
     "Academic Research/Academic Research.md",
     "().md",
     "Academic Research/Anki LLM",
     "Academic Research",
-=======
->>>>>>> 5ec9680290c3abae01eb5a9165667e0b80e4c619
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
@@ -200,7 +171,6 @@
     "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030152603.png",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
@@ -213,7 +183,6 @@
     "Startup.md",
     "Social Apps.md",
     "Microsoft.md",
-    "Hardware.md",
     "Designing Data Intensive Applications",
     "Web/NextJs",
     "Projects"

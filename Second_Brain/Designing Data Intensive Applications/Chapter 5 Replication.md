@@ -25,6 +25,10 @@ Each node that stores a copy of the database is called a replica.
 What is a replica? A replica is a node in a system that keeps a copy of the same data as other nodes. If some nodes are unavailable, the data can still be served from the remaining nodes. Replication can also help improve performance. 
 
 What is Leader-Based Replication? 
+Clients send all writes to a single node (the leader), which sends a stream of data  
+change events to the other replicas (followers). Reads can be performed on any  
+replica, but reads from followers might be stale
+
 - database write requests write to the leader/master first which goes to the replication log and then every follower/slave writes based on replication log
 - clients that want to read from the database can query leader or follower but only leader accepts write requests
 - followers generally are written to asynchronously or in a semi-synchronous configuration 
@@ -108,20 +112,15 @@ A problem for sharded databases where multiple writes going to different shards 
 
 ## Multi-Leader Replication
 
+Clients send each write to one of several leader nodes, any of which can accept  
+writes. The leaders send streams of data change events to each other and to any  
+follower nodes.
+
 - tries to solve the problem of one leader write bottleneck
 - also known as master-master or active/active replication
 - rarely makes sense to use a multi-leader setup within a single data center because the benefits rarely outweigh the added complexity
 
-Pros:
-- performance increase perceived by user
-- no need for failover from follower to leader if one data center goes down other leaders still exist'
-- better tolerate network problems better
-- good for systems that need to continue to work offline
-Cons:
-- require conflict resolution system for writing between leaders which has some serious pitfalls with auto-incrementing keys, triggers, and integrity constraints
-- significant additional system complexity
-- hard to get right, infamously difficult
-- hard to deal with 2 users writing to change the same thing at the same time
+
 
 What is Real-time collaborative editing?
 Applications that allow several people to edit a document simultaneously. Think google docs
@@ -148,7 +147,34 @@ What is a replication topology?
 
 a design that describes the communication paths along which writes are propagated from one node to another
 
+![[Pasted image 20231106101139.png]]
+
+What is leaderless replication?
+
+Clients send each write to several nodes, and read from several nodes in parallel in order to detect and correct nodes with stale data
+
+- no node outage fail-over so versioning of data is used for reads and all or multiple nodes are read from for a read request
 
 
+In leaderless replication what are the main 2 ways to bring a node with stale data up-to-date?
 
+Read repair & anti-entropy process
 
+What is read repair?
+
+A leaderless replication process where for a given read if one node has out of date data then the node that returned the most up-to-date data writes their newer value to the node with stale data
+
+What is the anti-entropy process?
+
+(leaderless replication)
+a background process in a datastore that constantly looks for differences in data between replicas and copies missing data from one replica to the other
+
+What is the problem with monitoring staleness in leaderless replication?
+
+In leader-based replication monitoring is easy because you can measure the distance between a leader and their followers but in leaderless replication this is not the case and there is no good solution to do so
+
+When is it ideal to implement leaderless replication?
+for use cases that require high availability and low latency, and that can tolerate occasional stale reads.
+
+How do we define concurrency when it comes to writing to nodes in a distributed system?
+exact time doesn’t matter: we simply call two operations concurrent if they are both unaware of each other, regardless of the physical time at which they occurred
