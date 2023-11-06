@@ -4,18 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3d02b5d5daf7ecec",
+        "id": "dc50a6e26cac10d8",
         "type": "tabs",
         "children": [
           {
-            "id": "445eee2cf0af049e",
+            "id": "86d6a24ef54a05f8",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "177230f8b8763aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self-Hosted.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.5
   },
   "right": {
     "id": "18046352c32c198e",
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Self-Hosted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Self-Hosted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Self-Hosted.md"
+              }
             }
           }
         ]
@@ -138,20 +155,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "445eee2cf0af049e",
+  "active": "177230f8b8763aaf",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
-    "Academic Research/Anki LLM/Articles.md",
-    "Academic Research/Anki LLM/Literature Review.md",
+    "Databases.md",
+    "Self-Hosted.md",
+    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
+    "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Academic Research/Anki LLM/Articles.md",
+    "Academic Research/Anki LLM",
+    "Academic Research/Academic Research.md",
+    "Academic Research",
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Academic Research/Anki LLM/References.md",
-    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "Academic Research/Academic Research.md",
-    "().md",
-    "Academic Research/Anki LLM",
-    "Academic Research",
+    "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
     "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
