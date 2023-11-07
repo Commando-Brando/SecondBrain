@@ -5,8 +5,7 @@ The problem with a shared-memory approach is that the cost grows faster than lin
 
 Shared-Disk Architecture - where several machines with independent CPUs and RAM store data on an array of disks that is shared between machines connected via a fast network.This architecture is used for some data warehousing workloads, but contention and the overhead of locking limit the scalability of the shared-disk approach.
 
-Shared-Nothing Architecture - (sometimes called horizontal scaling or scaling out) have gained a lot of popularity. In this approach, each machine or virtual
-machine running the database software is called a node. Each node uses its CPUs, RAM, and disks independently. Any coordination between nodes is done at the software level, using a conventional network.
+Shared-Nothing Architecture - (sometimes called horizontal scaling or scaling out) have gained a lot of popularity. In this approach, each machine or virtual machine running the database software is called a node. Each node uses its CPUs, RAM, and disks independently. Any coordination between nodes is done at the software level, using a conventional network.
 
 What are the 2 ways data is distributed across multiple nodes?
 
