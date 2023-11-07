@@ -57,3 +57,6 @@ Review Outline (Chronological):
 #### Consideration
 
 The 2020 study was using a custom built webapp it probably is worth noting the convenience of anki in comparison to a custom made web app and because anki is cross platform which may cause an increase in the amount of students who participate in the spaced repetition learning.
+
+## Review 1 Notes
+
