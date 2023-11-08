@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3b3b2eacc3904836",
+        "id": "b1ba031a08e4d221",
         "type": "tabs",
         "children": [
           {
-            "id": "75ab3304a9d0a734",
+            "id": "489a202bc5d3d221",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic Research/Anki LLM/Literature Review.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academic Research/Anki LLM/Literature Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academic Research/Anki LLM/Literature Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Academic Research/Anki LLM/Literature Review.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75ab3304a9d0a734",
+  "active": "489a202bc5d3d221",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Images/Pasted image 20231107110905.png",
+    "Designing Data Intensive Applications/Chapter 7 Transactions.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231108123735.png",
+    "Designing Data Intensive Applications/Images/Pasted image 20231108123713.png",
+    "Pasted image 20231107170959.png",
+    "Designing Data Intensive Applications/Further Exploration.md",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231107110905.png",
     "Pasted image 20231107110905.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
     "Designing Data Intensive Applications/Chapter 5 Replication.md",
@@ -158,7 +157,6 @@
     "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
     "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images",
-    "Academic Research/Anki LLM/Literature Review.md",
     "Academic Research/Anki LLM/Articles.md",
     "Academic Research/Anki LLM",
     "Academic Research/Academic Research.md",
@@ -166,20 +164,14 @@
     "Untitled.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
     "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
-    "Designing Data Intensive Applications/Further Exploration.md",
     "Career.md",
     "Designing Data Intensive Applications/Glossary.md",
     "Python/FastAPI.md",
     "Python",
     "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031125249.png",
     "NixOS/NixOS.md",
     "NixOS",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030165617.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
@@ -190,7 +182,6 @@
     "System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
     "System Design Insiders Guide",
     "Startup.md",
-    "Social Apps.md",
     "Designing Data Intensive Applications",
     "Web/NextJs",
     "Projects"
