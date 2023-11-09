@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1ba031a08e4d221",
+        "id": "3c9d66c253aa3445",
         "type": "tabs",
         "children": [
           {
-            "id": "489a202bc5d3d221",
+            "id": "6a582e454e2095a2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,9 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "489a202bc5d3d221",
+  "active": "6a582e454e2095a2",
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 7 Transactions.md",
+    "AI.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231108123735.png",
@@ -172,7 +173,6 @@
     "NixOS/NixOS.md",
     "NixOS",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Designing Data Intensive Applications/Images",

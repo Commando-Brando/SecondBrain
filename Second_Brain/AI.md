@@ -12,4 +12,6 @@
 
 
 
-
+What is RAG?
+(Retrieval Augmented Generation)  
+Uses vectors database to try to enhance user prompts with additional context to try prevent incorrect LLM responses due to hallucination or out-of-date information
