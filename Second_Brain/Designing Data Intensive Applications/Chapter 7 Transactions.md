@@ -30,7 +30,7 @@ In ACID what is weak isolation?
 Traditional isolation for transaction can be costly performance-wise so a lot of databases use weak isolation which loosens the rules which increases performance but also increases the chances for transaction faults
 
 What is ACID read-committed isolation?
-The most basic level of transaction isolation is read committed.v It makes two guarantees:
+The most basic level of transaction isolation is read committed It makes two guarantees:
 1. When reading from the database, you will only see data that has been committed
 (no dirty reads).
 2. When writing to the database, you will only overwrite data that has been committed
@@ -43,4 +43,28 @@ Snapshot isolation is a concurrency control method in databases, ensuring that a
 
 
 
+pg246
+
+In the context of transactions what is a Phantom read?
+A transaction reads objects that match some search condition. Another client makes a write that affects the results of that search. Snapshot isolation prevents straightforward phantom reads, but phantoms in the context of write skew require special treatment, such as index-range locks.
+
+What is materializing conflicts?
+an approach to dealing with phantoms where we use locks to lock rows that are used for the select part of the transaction until the transaction completes or it `update` step does.
+
+What does it mean for something in programming to be non-deterministic?
+Whenever something we are executing like an algorithm or function does not always produce the same output each time
+
+Why do some databases serially execute transactions?
+Some databases can produce high throughput on a single CPU core if transactions are short and fast to execute which is common in OLTP systems, limited to use cases where the active dataset can fit in memory
+
+In database transaction what are lost updates?
+Two clients concurrently perform a read-modify-write cycle. One overwrites the other’s write without incorporating its changes, so data is lost. Some implementations of snapshot isolation prevent this anomaly automatically, while others require a manual lock (SELECT FOR UPDATE)
+
+In database transaction what is a write skew?
+A transaction reads something, makes a decision based on the value it saw, and writes the decision to the database. However, by the time the write is made, the premise of the decision is no longer true. Only serializable isolation prevents this anomaly.
+
+What are the 3 main ways of implementing serialized transactions?
+- Literally executing transactions in a serial order
+- Two-phase locking
+- Serializable snapshot isolation (SSI)
 
