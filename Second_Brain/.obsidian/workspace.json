@@ -9,182 +9,212 @@
         "children": [
           {
             "id": "eda592e4017746a5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+            "id": "3c9d66c253aa3445",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6a582e454e2095a2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
-      }
-    ],
-    "direction": "vertical"
-  },
-  "left": {
-    "id": "830de300435da2c9",
-    "type": "split",
-    "children": [
-      {
-        "id": "80d14a763b2ec333",
-        "type": "tabs",
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "830de300435da2c9",
+        "type": "split",
         "children": [
           {
-            "id": "d31f484b331c7c53",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
+            "id": "80d14a763b2ec333",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d31f484b331c7c53",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f62ff3c9a57e44dc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "a4c1b91939431305",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
               }
-            }
-          },
-          {
-            "id": "f62ff3c9a57e44dc",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "a4c1b91939431305",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
+            ]
           }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "18046352c32c198e",
-    "type": "split",
-    "children": [
-      {
-        "id": "fa9c3e1435a3371c",
-        "type": "tabs",
+        ],
+        "direction": "horizontal",
+        "width": 203.5
+      },
+      "right": {
+        "id": "18046352c32c198e",
+        "type": "split",
         "children": [
           {
-            "id": "27b92ad271734e82",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+            "id": "fa9c3e1435a3371c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "27b92ad271734e82",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6bf63aba1f9e1f8f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8af1571bc23a07b3",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "a03b5872bd663c65",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
               }
-            }
-          },
-          {
-            "id": "6bf63aba1f9e1f8f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "8af1571bc23a07b3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "a03b5872bd663c65",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
+            ]
           }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
-  "active": "eda592e4017746a5",
-  "lastOpenFiles": [
-    "Academic Research/Anki LLM/Literature Review.md",
-    "Academic Research/Anki LLM/Articles.md",
-    "Academic Research/Anki LLM/References.md",
-    "Academic Research/Academic Research.md",
-    "AI.md",
-    "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
-    "Self-Hosted.md",
-    "Academic Research/Anki LLM/Images",
-    "Untitled.md",
-    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "().md",
-    "Academic Research/Anki LLM",
-    "Academic Research",
-    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
-    "Designing Data Intensive Applications/Further Exploration.md",
-    "Career.md",
-    "Designing Data Intensive Applications/Glossary.md",
-    "Python/FastAPI.md",
-    "Python",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031125249.png",
-    "NixOS/NixOS.md",
-    "NixOS",
-    "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false
+        }
+      },
+      "active": "eda592e4017746a5",
+      "lastOpenFiles": [
+        "Academic Research/Anki LLM/Literature Review.md",
+        "Academic Research/Anki LLM/Articles.md",
+        "Academic Research/Anki LLM/References.md",
+        "Academic Research/Academic Research.md",
+        "AI.md",
+        "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
+        "Designing Data Intensive Applications/Chapter 5 Replication.md",
+        "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
+        "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
+        "Self-Hosted.md",
+        "Academic Research/Anki LLM/Images",
+        "Untitled.md",
+        "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
+        "().md",
+        "Academic Research/Anki LLM",
+        "Academic Research",
+        "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+        "active": "6a582e454e2095a2",
+        "lastOpenFiles": [
+          "Designing Data Intensive Applications/Chapter 7 Transactions.md",
+          "AI.md",
+          "Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
+          "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
+          "Designing Data Intensive Applications/Images/Pasted image 20231108123735.png",
+          "Designing Data Intensive Applications/Images/Pasted image 20231108123713.png",
+          "Pasted image 20231107170959.png",
+          "Designing Data Intensive Applications/Further Exploration.md",
+          "Academic Research/Anki LLM/Literature Review.md",
+          "Designing Data Intensive Applications/Images/Pasted image 20231107110905.png",
+          "Pasted image 20231107110905.png",
+          "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
+          "Designing Data Intensive Applications/Chapter 5 Replication.md",
+          "Self-Hosted.md",
+          "Databases.md",
+          "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
+          "Academic Research/Anki LLM/References.md",
+          "Academic Research/Anki LLM/Images",
+          "Academic Research/Anki LLM/Articles.md",
+          "Academic Research/Anki LLM",
+          "Academic Research/Academic Research.md",
+          "Academic Research",
+          "Untitled.md",
+          "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
+          "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
+          "Career.md",
+          "Designing Data Intensive Applications/Glossary.md",
+          "Python/FastAPI.md",
+          "Python",
+          "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
+          "NixOS/NixOS.md",
+          "NixOS",
+          "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
+<<<<<<< HEAD
     "Designing Data Intensive Applications/Images/Pasted image 20231030165617.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
+          "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
+          "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
+          "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
+=======
+>>>>>>> ada070db7b4e379f0127f5d4e6fc5547a01c75ac
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
-    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
-    "Designing Data Intensive Applications/Images",
-    "Web/Web Performance.md",
-    "Readings.md",
-    "Designing Data Intensive Applications/Data Intensive Applications.md",
-    "System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
-    "System Design Insiders Guide",
-    "Startup.md",
-    "Social Apps.md",
-    "Microsoft.md",
-    "Designing Data Intensive Applications",
-    "Web/NextJs",
-    "Projects"
-  ]
-}
+          "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
+          "Designing Data Intensive Applications/Images",
+          "Web/Web Performance.md",
+          "Readings.md",
+          "Designing Data Intensive Applications/Data Intensive Applications.md",
+          "System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+          "System Design Insiders Guide",
+          "Startup.md",
+          "Designing Data Intensive Applications",
+          "Web/NextJs",
+          "Projects"
+        ]
+      }
