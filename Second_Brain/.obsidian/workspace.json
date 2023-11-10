@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b7b3646803a84ba5",
+        "id": "db02dfdcef34414c",
         "type": "tabs",
         "children": [
           {
-            "id": "b387f32b1a46b00c",
+            "id": "eda592e4017746a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,20 +138,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d31f484b331c7c53",
+  "active": "eda592e4017746a5",
   "lastOpenFiles": [
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Academic Research/Anki LLM/Articles.md",
+    "Academic Research/Anki LLM/References.md",
+    "Academic Research/Academic Research.md",
+    "AI.md",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
     "Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
     "Self-Hosted.md",
-    "Academic Research/Anki LLM/Articles.md",
-    "Academic Research/Anki LLM/Literature Review.md",
     "Academic Research/Anki LLM/Images",
     "Untitled.md",
-    "Academic Research/Anki LLM/References.md",
     "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "Academic Research/Academic Research.md",
     "().md",
     "Academic Research/Anki LLM",
     "Academic Research",
@@ -171,7 +172,6 @@
     "Designing Data Intensive Applications/Images/Pasted image 20231030162613.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030162302.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231030151747.png",
-    "AI.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Designing Data Intensive Applications/Images",

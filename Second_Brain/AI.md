@@ -10,3 +10,4 @@
 [LLM-FP4: 4-Bit Floating-Point Quantized Transformers](https://arxiv.org/abs/2310.16836v1)
 
 
+[Outerbounds YouTube LLM in Practice](https://www.youtube.com/watch?v=uDBGwQ7JAzQ) - [GitHub Repo](https://github.com/outerbounds/generative-ai-summit-austin-2023)
