@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4cce1cacd3ca9259",
+        "id": "56f507c22c049a2b",
         "type": "tabs",
         "children": [
           {
-            "id": "42b21950aff50b6d",
+            "id": "cef9f04e22e07de0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,11 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42b21950aff50b6d",
+  "active": "cef9f04e22e07de0",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "AI.md",
     "Designing Data Intensive Applications/Chapter 7 Transactions.md",
-    "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
     "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md"
