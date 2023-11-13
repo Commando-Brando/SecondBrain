@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "56f507c22c049a2b",
+        "id": "fca832dff11ef3f9",
         "type": "tabs",
         "children": [
           {
-            "id": "cef9f04e22e07de0",
+            "id": "d20ea5be7c3d6c8e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cef9f04e22e07de0",
+  "active": "d20ea5be7c3d6c8e",
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "AI.md",
