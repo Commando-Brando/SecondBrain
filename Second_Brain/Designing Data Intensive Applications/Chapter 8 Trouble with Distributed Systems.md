@@ -21,3 +21,13 @@ The idea of creating super computers for intensive scientific computing tasks
 >When driving a car, travel times on road networks often vary most due to traffic congestion. Similarly, the variability of packet delays on computer networks is most often due to queueing
 
 Page 287
+
+What is a time-of-day clock?
+a clock that returns the current date and time according to some calendar (AKA wall clock). 
+
+For example, `clock_gettime(CLOCK_REALTIME)` on Linux returns the number of seconds (or milliseconds) since the epoch (midnight UTC January 1, 1970)
+
+What is a Monotonic clock?
+a clock suitable for measuring duration, the actual time it presents is arbitruary and only useful for measuring how long things take by taking the difference of one or more recorded times of the clock
+
+What is last write wins?

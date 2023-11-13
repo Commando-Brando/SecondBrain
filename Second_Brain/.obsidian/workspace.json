@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "9587e6d79ac20a0b",
         "type": "tabs",
         "children": [
           {
             "id": "d7cd3e44ab6cd63c",
+=======
+        "id": "fca832dff11ef3f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d20ea5be7c3d6c8e",
+>>>>>>> 422168d7da041c0ac8f9b6864e9be8d7567e3697
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "d7cd3e44ab6cd63c",
+=======
+  "active": "d20ea5be7c3d6c8e",
+>>>>>>> 422168d7da041c0ac8f9b6864e9be8d7567e3697
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "Designing Data Intensive Applications/Chapter 7 Transactions.md",
