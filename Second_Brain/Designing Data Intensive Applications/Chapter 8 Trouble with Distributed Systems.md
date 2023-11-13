@@ -1,5 +1,13 @@
 Page 273
 
+What is an NTP client?
+
+Key points:
+- networks are super challenging to deal with especially in distributed systems
+	- maybe things can go wrong
+	- even with TCP it can be challenging to determine when a server in a client-server model is down
+- system clocks are unreliable and handling considerations need to be made in order to align things that rely on clocks
+
 What is a partial failure?
 When some parts of a system are broken in some unpredictable way while other parts work fine. These are non-deterministic, sometimes they fail, sometimes they do not which makes debugging a challenge
 

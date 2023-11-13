@@ -42,13 +42,10 @@ Snapshot isolation is a concurrency control method in databases, ensuring that a
 - writes not block by reads - reads not blocked by writes
 
 
-
-pg246
-
 In the context of transactions what is a Phantom read?
 A transaction reads objects that match some search condition. Another client makes a write that affects the results of that search. Snapshot isolation prevents straightforward phantom reads, but phantoms in the context of write skew require special treatment, such as index-range locks.
 
-What is materializing conflicts?
+What is materializing conflicts in transactions?
 an approach to dealing with phantoms where we use locks to lock rows that are used for the select part of the transaction until the transaction completes or it `update` step does.
 
 What does it mean for something in programming to be non-deterministic?
