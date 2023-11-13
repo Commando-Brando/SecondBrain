@@ -7,6 +7,8 @@ Key points:
 	- maybe things can go wrong
 	- even with TCP it can be challenging to determine when a server in a client-server model is down
 - system clocks are unreliable and handling considerations need to be made in order to align things that rely on clocks
+- A process may pause for a substantial amount of time at any point in its execution (perhaps due to a stop-the-world garbage collector), be declared dead by other nodes, and then come back to life again without realizing that it was paused.
+- What properties should our distributed system have? The third half of the chapter describes some of the many considerations for defining the non-functional requirements of our system
 
 What is a partial failure?
 When some parts of a system are broken in some unpredictable way while other parts work fine. These are non-deterministic, sometimes they fail, sometimes they do not which makes debugging a challenge
