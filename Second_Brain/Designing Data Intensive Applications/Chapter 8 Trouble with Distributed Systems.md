@@ -30,4 +30,38 @@ For example, `clock_gettime(CLOCK_REALTIME)` on Linux returns the number of seco
 What is a Monotonic clock?
 a clock suitable for measuring duration, the actual time it presents is arbitruary and only useful for measuring how long things take by taking the difference of one or more recorded times of the clock
 
-What is last write wins?
+Thus, even though it is tempting to resolve conflicts by keeping the most “recent”
+value and discarding others, it’s important to be aware that the definition of “recent”
+depends on a local time-of-day clock, which may well be incorrect. Even with tightly
+NTP-synchronized clocks, you could send a packet at timestamp 100 ms (according
+to the sender’s clock) and have it arrive at timestamp 99 ms (according to the recipient’s
+clock)—so it appears as though the packet arrived before it was sent, which is
+impossible.
+
+How does garbage collection effect system clocks?
+Occasionally garbage collection must pause all threads to garbage collect which and mess with the application's sense of time with the CPU clock making time use less reliable
+
+What is a real-time operating system?
+allows processes to be scheduled with a guaranteed allocation of CPU time in specified intervals is needed; library functions must document their worst-case execution times; dynamic memory allocation may be restricted or disallowed entirely (real-time garbage collectors exist, but the application must still ensure that it doesn’t give the GC too much work to do); and an enormous amount of testing and measurement must be done to ensure that guarantees are being met.
+
+Why is it important to design a leader writing locking mechanism in a leader-based distributed system?
+If a declared dead leader by a quorum of nodes but it still thinks its the leader and it still has write access then it could cause problems in the system/data
+
+What is a fencing token?
+a number that increases every time a lock is granted (e.g. incremented by the lock service). Fencing tokens can detect and block a node that is inadvertently acting in error (e.g.,
+because it hasn’t yet found out that its lease has expired).
+
+Byzantine fault
+When we assume that nodes in a distributed system are telling the truth to the best of their ability but then a node lies by saying for example it received a message when it did not.
+
+Byzantine Generals Problem
+In the Byzantine version of the problem, there are n generals who need to agree, and
+their endeavor is hampered by the fact that there are some traitors in their midst.
+Most of the generals are loyal, and thus send truthful messages, but the traitors may
+try to deceive and confuse the others by sending fake or untrue messages (while trying
+to remain undiscovered). It is not known in advance who the traitors are
+
+What is Byzantine fault-tolerant?
+A system is Byzantine fault-tolerant if it continues to operate correctly even if some
+of the nodes are malfunctioning and not obeying the protocol, or if malicious attackers
+are interfering with the network.
