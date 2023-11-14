@@ -1,6 +1,8 @@
 Page 273
 
-What is an NTP client?
+What is an NTP?
+(Network Time Protocol)
+a protocol that allows the synchronization of system clocks. In client-server architectures there can be NTP servers which serve to help synchronize clocks between clients.
 
 Key points:
 - networks are super challenging to deal with especially in distributed systems
@@ -22,7 +24,6 @@ The idea of creating super computers for intensive scientific computing tasks
 
 >When driving a car, travel times on road networks often vary most due to traffic congestion. Similarly, the variability of packet delays on computer networks is most often due to queueing
 
-Page 287
 
 What is a time-of-day clock?
 a clock that returns the current date and time according to some calendar (AKA wall clock). 
@@ -30,7 +31,7 @@ a clock that returns the current date and time according to some calendar (AKA w
 For example, `clock_gettime(CLOCK_REALTIME)` on Linux returns the number of seconds (or milliseconds) since the epoch (midnight UTC January 1, 1970)
 
 What is a Monotonic clock?
-a clock suitable for measuring duration, the actual time it presents is arbitruary and only useful for measuring how long things take by taking the difference of one or more recorded times of the clock
+a clock suitable for measuring duration, the actual time it presents is arbitrary and only useful for measuring how long things take by taking the difference of one or more recorded times of the clock
 
 Thus, even though it is tempting to resolve conflicts by keeping the most “recent”
 value and discarding others, it’s important to be aware that the definition of “recent”
@@ -57,11 +58,7 @@ Byzantine fault
 When we assume that nodes in a distributed system are telling the truth to the best of their ability but then a node lies by saying for example it received a message when it did not.
 
 Byzantine Generals Problem
-In the Byzantine version of the problem, there are n generals who need to agree, and
-their endeavor is hampered by the fact that there are some traitors in their midst.
-Most of the generals are loyal, and thus send truthful messages, but the traitors may
-try to deceive and confuse the others by sending fake or untrue messages (while trying
-to remain undiscovered). It is not known in advance who the traitors are
+In the Byzantine version of the problem, there are n generals who need to agree, and their endeavor is hampered by the fact that there are some traitors in their midst. Most of the generals are loyal, and thus send truthful messages, but the traitors may try to deceive and confuse the others by sending fake or untrue messages (while trying to remain undiscovered). It is not known in advance who the traitors are
 
 What is Byzantine fault-tolerant?
 A system is Byzantine fault-tolerant if it continues to operate correctly even if some

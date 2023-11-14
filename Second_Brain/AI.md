@@ -16,3 +16,9 @@
 What is RAG?
 (Retrieval Augmented Generation)  
 Uses vectors database to try to enhance user prompts with additional context to try prevent incorrect LLM responses due to hallucination or out-of-date information
+
+[LlamaIndex](https://gpt-index.readthedocs.io/en/latest/index.html)
+[Guide Of All Open Sourced Large Language Models(LLMs)](https://luv-bansal.medium.com/list-of-all-open-sourced-large-language-models-llms-a9e3927e8da8)
+
+
+

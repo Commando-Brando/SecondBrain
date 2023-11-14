@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4f52b1f8264c0a0",
+        "id": "a3b3a660b3686dae",
         "type": "tabs",
         "children": [
           {
-            "id": "520092cc25a43c57",
+            "id": "15428459c0bccaae",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,11 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "520092cc25a43c57",
+  "active": "15428459c0bccaae",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
-    "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "AI.md",
+    "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
+    "Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
     "Designing Data Intensive Applications/Chapter 7 Transactions.md",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
