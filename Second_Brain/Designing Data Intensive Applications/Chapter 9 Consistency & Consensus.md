@@ -29,3 +29,11 @@ If a system obeys the ordering of processing. Make sure to process y before x if
 
 What is the relationship between linearizability and causality?
 linearizability implies causality: any system that is linearizable will preserve causality correctly
+
+In a single-leader causal system how can you track the ordering of reads/writes?
+You can use sequence numbers or timestamps which each only consist of a few bytes
+
+What can multi-leader systems use to maintain causality?
+Lamport timestamps, Each node has a unique
+identifier, and each node keeps a counter of the number of operations it has processed.
+The Lamport timestamp is then simply a pair of (counter, node ID).
