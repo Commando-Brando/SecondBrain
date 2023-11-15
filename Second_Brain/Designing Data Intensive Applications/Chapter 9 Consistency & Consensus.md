@@ -26,3 +26,6 @@ noun
 
 What does it mean for a system to be casually consistent/
 If a system obeys the ordering of processing. Make sure to process y before x if x causes y.
+
+What is the relationship between linearizability and causality?
+linearizability implies causality: any system that is linearizable will preserve causality correctly
