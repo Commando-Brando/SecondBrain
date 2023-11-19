@@ -1,5 +1,6 @@
 nix.dev/tutorials
 https://search.nixos.org/packages
+[Nix for Startups (full course)](https://www.youtube.com/watch?v=WJZgzwB3ziE)
 
 ## Ad Hoc Shell Environments
 

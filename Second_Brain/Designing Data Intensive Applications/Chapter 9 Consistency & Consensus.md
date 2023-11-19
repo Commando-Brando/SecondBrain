@@ -45,8 +45,6 @@ Distributed databases that use replication/partitioning in their standard config
 What are Heterogeneous distributed transactions?
 Where the participants of transactions are two or more different technologies in which case the the technology must be able to communicate and ensure atomic commit.
 
---- ANKI CARDS NEEDED BELOW ---
-
 What is eXtended Architecture?
 (X/Open XA)
 a standard for implementing two-phase commit across heterogeneous technologies. It was introduced in 1991 and has been widely implemented: XA is supported by many traditional relational databases (including PostgreSQL, MySQL, DB2, SQL Server, and Oracle) and message brokers (including ActiveMQ, HornetQ, MSMQ, and IBM MQ)
@@ -55,7 +53,5 @@ a standard for implementing two-phase commit across heterogeneous technologies. 
 What is the difference between using a coordinator for 2PC vs using a quorum of nodes to elect a leader and then vote on a proposal?
 The biggest differences are that in 2PC the coordinator is not elected, and that fault-tolerant consensus algorithms only require votes from a majority of nodes, whereas 2PC requires a
 “yes” vote from every participant. 
-
-page 373
 
 
