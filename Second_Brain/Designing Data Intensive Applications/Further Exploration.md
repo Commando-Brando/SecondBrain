@@ -14,3 +14,4 @@
 - What is Hadoop
 - What is AJAX & XMLHttpRequest (apparently they are strongly related)
 - Define middleware
+- linux file descriptor

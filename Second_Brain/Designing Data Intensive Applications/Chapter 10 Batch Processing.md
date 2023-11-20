@@ -26,3 +26,35 @@ Stream processing is somewhere between online and offline/batch processing (so i
 
 What is MapReduce?
 A batch processing algorithm published in 2004 which is a low-level programming model.
+
+Page 391
+
+What is the working set of a job?
+The amount of memory to which the job needs random access. For example, to process 64 bytes of log files quickly a program may need to read all 64 bytes into memory which would represent its working set.
+
+What does the Balkanization of data mean?
+It means that your data becomes silo'd and difficult to make work together, from when the Ottoman empire fell and the conflicting Balkan nation-states emerged.
+
+How is the efficiency of writing a traditional programming language app to perform data operations on say Linux log files compared to that of using GNU utilities?
+GNU utilities quickly out perform programming languages for what it is capable of because it is optimized for concurrency and reading from disk
+
+What does the Unix philosophy encourage for the input/output of apps?
+Expect the output of every program to become the input to another, as yet unknown, program. Don’t clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don’t insist on interactive input.
+
+What is MapReduce?
+MapReduce is a programming framework with which you can write code to process large datasets in a distributed filesystem like Hadoop File System (Distributed file system).
+
+How does the Mapper in MapReduce behave?
+The mapper is called once for every input record, and its job is to extract the key
+and value from the input record. For each input, it may generate any number of
+key-value pairs (including none). It does not keep any state from one input
+record to the next, so each record is handled independently.
+
+At a high level how do you implement MapReduce?
+You implement it using 2 callbacks functions, the Mapper & Reducer
+
+How does the Reducer in MapReduce behave?
+The MapReduce framework takes the key-value pairs produced by the mappers,
+collects all the values belonging to the same key, and calls the reducer with an
+iterator over that collection of values. The reducer can produce output records
+(such as the number of occurrences of the same URL).
