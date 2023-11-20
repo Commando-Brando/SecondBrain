@@ -27,8 +27,6 @@ Stream processing is somewhere between online and offline/batch processing (so i
 What is MapReduce?
 A batch processing algorithm published in 2004 which is a low-level programming model.
 
-Page 391
-
 What is the working set of a job?
 The amount of memory to which the job needs random access. For example, to process 64 bytes of log files quickly a program may need to read all 64 bytes into memory which would represent its working set.
 
@@ -45,16 +43,42 @@ What is MapReduce?
 MapReduce is a programming framework with which you can write code to process large datasets in a distributed filesystem like Hadoop File System (Distributed file system).
 
 How does the Mapper in MapReduce behave?
-The mapper is called once for every input record, and its job is to extract the key
-and value from the input record. For each input, it may generate any number of
-key-value pairs (including none). It does not keep any state from one input
-record to the next, so each record is handled independently.
+- called once for every input record
+- goal to extract key/value from input record
+- for each input may generate 0, 1, or multiple key-value pairs
+- no state kept between processing each record
 
 At a high level how do you implement MapReduce?
-You implement it using 2 callbacks functions, the Mapper & Reducer
+- you implement it using 2 callbacks functions, the Mapper & Reducer
+- the data gets sorted between the mapper/reducing callbacks
 
 How does the Reducer in MapReduce behave?
-The MapReduce framework takes the key-value pairs produced by the mappers,
-collects all the values belonging to the same key, and calls the reducer with an
-iterator over that collection of values. The reducer can produce output records
-(such as the number of occurrences of the same URL).
+- takes in key-value pairs from mapper
+- groups all the values belonging to the same key
+- calls the reducer with an iterator over the collection of values
+- produces output records
+
+What is the main difference between using Unix tools and MapReduce?
+MapReduce can parallelize a computation across multiple machines, without you having to write code to   explicitly handle the parallelism
+
+What are MapReduce workflows?
+Chains of MapReduce processes that take the output of a job and pipes it to another. 
+
+What is a full table scan?
+Whenever a database reads from a table and reads all records which is much more computationally expensive than a index lookup
+
+What is a secondary sort in MapReduce?
+a technique used in MapReduce where records are sorted by a primary key (e.g., user ID) and then by a secondary key (e.g., timestamp) within each primary key group. This method ensures that related records, such as user data and their corresponding activity events, become adjacent in the reducer's input
+
+What is sort-merge join?
+using MapReduce to sort records from 2 different tables on their linking key and then merge them using the reducer
+
+What is sessionization?
+collating all the activity events for a particular  
+user session, in order to find out the sequence of actions that the user took
+For example, such analysis could be used to work out  
+whether users who were shown a new version of your website are more likely to make  
+a purchase than those who were shown the old version (A/B testing), or to calculate  
+whether some marketing activity is worthwhile.
+
+Page 411

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "d8644a495b47017b",
+    "id": "9dad6576798d3936",
     "type": "split",
     "children": [
       {
-        "id": "5113fafbf1bdeba6",
+        "id": "373a1843f181b744",
         "type": "tabs",
         "children": [
           {
-            "id": "37c70bb319de9c35",
+            "id": "7cdc3636f513c172",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "830de300435da2c9",
+    "id": "230c55f089b9b58f",
     "type": "split",
     "children": [
       {
-        "id": "80d14a763b2ec333",
+        "id": "75c87ff6a7300509",
         "type": "tabs",
         "children": [
           {
-            "id": "d31f484b331c7c53",
+            "id": "689c21105a7be216",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "f62ff3c9a57e44dc",
+            "id": "6270939d449ff76e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "a4c1b91939431305",
+            "id": "8d8238f7b0e17f34",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,18 +65,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 300
   },
   "right": {
-    "id": "18046352c32c198e",
+    "id": "c789e573e5652faa",
     "type": "split",
     "children": [
       {
-        "id": "fa9c3e1435a3371c",
+        "id": "c7e72058b5dcc5ff",
         "type": "tabs",
         "children": [
           {
-            "id": "27b92ad271734e82",
+            "id": "a247ee2038338069",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "6bf63aba1f9e1f8f",
+            "id": "df5d60d06e1a90a4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "8af1571bc23a07b3",
+            "id": "c284fa14020ecc4a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "a03b5872bd663c65",
+            "id": "80376602ca754030",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -138,53 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37c70bb319de9c35",
+  "active": "7cdc3636f513c172",
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
-    "Designing Data Intensive Applications/Further Exploration.md",
+    "NixOS/NixOS.md",
     "Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
+    "AI.md",
     "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
     "Designing Data Intensive Applications/Chapter 7 Transactions.md",
-    "AI.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
     "Designing Data Intensive Applications/Chapter 6 Partitioning.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231108123735.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231108123713.png",
-    "Pasted image 20231107170959.png",
-    "Academic Research/Anki LLM/Literature Review.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231107110905.png",
-    "Pasted image 20231107110905.png",
-    "Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
-    "Designing Data Intensive Applications/Chapter 5 Replication.md",
-    "Self-Hosted.md",
-    "Databases.md",
-    "Academic Research/Anki LLM/Images/Pasted image 20231103123214.png",
-    "Academic Research/Anki LLM/References.md",
-    "Academic Research/Anki LLM/Images",
-    "Academic Research/Anki LLM/Articles.md",
-    "Academic Research/Anki LLM",
-    "Academic Research/Academic Research.md",
-    "Academic Research",
-    "Untitled.md",
-    "Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
-    "Career.md",
-    "Designing Data Intensive Applications/Glossary.md",
-    "Python/FastAPI.md",
-    "Python",
-    "Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
-    "NixOS/NixOS.md",
-    "NixOS",
     "Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
-    "Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
-    "Designing Data Intensive Applications/Images",
-    "Web/Web Performance.md",
-    "Readings.md",
-    "Designing Data Intensive Applications/Data Intensive Applications.md",
-    "System Design Insiders Guide",
-    "Designing Data Intensive Applications",
-    "Web/NextJs",
-    "Projects"
+    "Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md"
   ]
 }
