@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "373a1843f181b744",
+        "id": "fcbcff2080c756da",
         "type": "tabs",
         "children": [
           {
-            "id": "7cdc3636f513c172",
+            "id": "0b6b209f882a6250",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,9 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cdc3636f513c172",
+  "active": "0b6b209f882a6250",
   "lastOpenFiles": [
     "Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
+    "Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
     "NixOS/NixOS.md",
     "Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
     "AI.md",

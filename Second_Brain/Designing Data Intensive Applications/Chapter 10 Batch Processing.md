@@ -22,11 +22,6 @@ A batch processing system takes a large amount of input data, runs a job to proc
 What is a Stream Processing system?
 Stream processing is somewhere between online and offline/batch processing (so it is sometimes called near-real-time or nearline processing). Like a batch processing system, a stream processor consumes inputs and produces outputs (rather than responding to requests). However, a stream job operates on events shortly after they happen, whereas a batch job operates on a fixed set of input data. This difference allows stream processing systems to have lower latency than the equivalent batch systems
 
---- ANKI CARDS NEEDED FOR BELOW ---
-
-What is MapReduce?
-A batch processing algorithm published in 2004 which is a low-level programming model.
-
 What is the working set of a job?
 The amount of memory to which the job needs random access. For example, to process 64 bytes of log files quickly a program may need to read all 64 bytes into memory which would represent its working set.
 
@@ -70,15 +65,35 @@ Whenever a database reads from a table and reads all records which is much more 
 What is a secondary sort in MapReduce?
 a technique used in MapReduce where records are sorted by a primary key (e.g., user ID) and then by a secondary key (e.g., timestamp) within each primary key group. This method ensures that related records, such as user data and their corresponding activity events, become adjacent in the reducer's input
 
-What is sort-merge join?
-using MapReduce to sort records from 2 different tables on their linking key and then merge them using the reducer
-
 What is sessionization?
-collating all the activity events for a particular  
-user session, in order to find out the sequence of actions that the user took
-For example, such analysis could be used to work out  
-whether users who were shown a new version of your website are more likely to make  
-a purchase than those who were shown the old version (A/B testing), or to calculate  
-whether some marketing activity is worthwhile.
+collating all the activity events for a particular user session, in order to find out the sequence of actions that the user took. For example, such analysis could be used to work out whether users who were shown a new version of your website are more likely to make a purchase than those who were shown the old version (A/B testing), or to calculate whether some marketing activity is worthwhile.
 
-Page 411
+What is a data lake?
+A datastore where the data collection does not enforce a schema and just dumps lots of data in to be schema-on-read later. Allows for faster data collection
+
+What is the sushi principle?
+raw data is better - aka better to just collect and dump lots data into a data lake and figure it out later than carefully craft schemas for it before collecting
+
+What is the PageRank algorithm?
+A famous graph analysis algorithm that  tries to estimate the popularity of a web page based on what other web pages link to it. It is used as part of the formula that determines the order in which web search engines present their results.
+
+What is bulk synchronous parallel?
+(BSP)
+A model of computation for optimally batch processing graphs. Implemented by Google's Pregel and others
+
+What are MapReduce sort-merge joins?
+- each record goes through mapper which extracts join key
+- partitioning, sorting, and merging, all the records with the same key end up going to the same call of the reducer
+- outputs joined records
+
+What are MapReduce broadcast hash joins?
+- when one of the 2 join inputs is small so it is not partitioned and can be loaded entirely into in-memory hash table
+- mapper scans over each record from large input and then query hash table to join records
+
+What are MapReduce partitioned hash joins?
+- used when the 2 join inputs are partitioned in the same way (same key, hash function, & number of partitions)
+- can then use hash table approach independently for each partition
+
+What does it mean for a data input to be bounded vs unbounded?
+Bounded input is one that does not change once the jobs starts, it is fixed (batch processes).
+Unbounded is when the data is not fixed and can have a stream of new work come in as the data is being processed.
