@@ -53,4 +53,9 @@ What is event sourcing?
 - stores all database operations providing a history of queries being executed
 - similar to change data capture 
 
-pg459
+>Transaction logs record all the changes made to the database. High-speed appends are the only way to change the log. From this perspective, the contents of the database hold a caching of the latest record values in the logs. The truth is the log. The database is a cache of a subset of the log. That cached subset happens to be the latest value of each record and index value from the log.
+- Pat Helland
+
+pg461
+
+What 

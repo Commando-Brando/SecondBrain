@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc22768bb20b6436",
+        "id": "e0e08f56a7ee4db2",
         "type": "tabs",
         "children": [
           {
-            "id": "cf58b89581a7ec57",
+            "id": "71bea1b3a6bba5ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf58b89581a7ec57",
+  "active": "71bea1b3a6bba5ad",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Images/Pasted image 20231122140159.png",
     "Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
+    "Designing Data Intensive Applications/Images/Pasted image 20231122140159.png",
     "Designing Data Intensive Applications/Images/Pasted image 20231122152427.png",
     "Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
     "NixOS/NixOS.md",
