@@ -56,6 +56,10 @@ What is event sourcing?
 >Transaction logs record all the changes made to the database. High-speed appends are the only way to change the log. From this perspective, the contents of the database hold a caching of the latest record values in the logs. The truth is the log. The database is a cache of a subset of the log. That cached subset happens to be the latest value of each record and index value from the log.
 - Pat Helland
 
-pg461
+pg462
 
-What 
+What is command query responsibility segregation (CQRS)?
+The idea behind CQRS is to separate the form in which data is written from the form is is read. By primarily writing to an event log we can read the data from that log and create different independent read views
+
+What is the biggest downside to event sourcing and change data capture?
+That the reading views generally operate asynchronous so there is a chance that a user will make a write and then an immediate read that does not reflect the write
