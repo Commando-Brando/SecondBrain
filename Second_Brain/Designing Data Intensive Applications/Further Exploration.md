@@ -15,3 +15,8 @@
 - What is AJAX & XMLHttpRequest (apparently they are strongly related)
 - Define middleware
 - linux file descriptor
+
+## Topics to Revisit
+- streaming joins chapter 11 pg 472
+- change data capture chapter 11
+- event sourcing chapter 11

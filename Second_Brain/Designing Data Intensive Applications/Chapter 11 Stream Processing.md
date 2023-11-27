@@ -56,10 +56,69 @@ What is event sourcing?
 >Transaction logs record all the changes made to the database. High-speed appends are the only way to change the log. From this perspective, the contents of the database hold a caching of the latest record values in the logs. The truth is the log. The database is a cache of a subset of the log. That cached subset happens to be the latest value of each record and index value from the log.
 - Pat Helland
 
-pg462
-
 What is command query responsibility segregation (CQRS)?
 The idea behind CQRS is to separate the form in which data is written from the form is is read. By primarily writing to an event log we can read the data from that log and create different independent read views
 
 What is the biggest downside to event sourcing and change data capture?
 That the reading views generally operate asynchronous so there is a chance that a user will make a write and then an immediate read that does not reflect the write
+
+What is the main disadvantage of stream processing compared to batch processing for fail over?
+Batch processing jobs when failed can simply restart but that might not be possible for stream processing jobs
+
+What are complex event processing systems?
+Systems designed to be able to query and identify events that match a specific criteria. Instead of persisting the events and the queries being transient, the queries are persisted and the events are transient. Only whenever an event matches a pattern in the same vane as a regex match does it return and event to the user
+
+What are stream analytics systems?
+Systems designed to perform analytics on streams - performing aggregations or statistical metrics over a large number of events. 
+For example:
+- Measuring the rate of some type of event (how often it occurs per time interval)
+- Calculating the rolling average of a value over some time period
+
+What is a time interval over which an aggregation is done known as?
+A window
+
+How does searching on streams work?
+Queries are persisted and data on a event is returned once an event that matches a query criteria is found. If there are many queries an optimization could be to build an index out of the queries themselves so every query does not need to be checked against every event
+
+What is a tumbling windows?
+- fixed length
+- every event belongs to only one window
+For example a 1 minute tumbling window, all the events with timestamps between 10:03:00 and 10:03:59 are grouped into one window, events between 10:04:00 and 10:04:59 into the next window, and so on
+
+What is a hopping window?
+- fixed length
+- windows can overlap for smoothing
+For example, a 5-minute window with a hop size of 1 minute would contain the events between 10:03:00 and 10:07:59, then the next window would cover events between 10:04:00 and 10:08:59, and so on
+
+What is a sliding windows?
+- contains all the events that occur within some interval of each other
+For example, a 5-minute sliding window would cover events at 10:03:39 and 10:08:12, because they are less than 5 minutes apart (note that tumbling and hopping 5-minute windows would not have put these two events in the same window, as they use fixed boundaries).
+
+What is a session window?
+- no fixed duration
+- defined by grouping events for the same user that occur closely in time together
+
+What is a stream-stream join?
+(window join)
+- joining 2 or more types of activity events via some key
+- index on the join key
+- maintain the state of the index
+
+What does streaming event enrichment mean?
+Joining data from some data source to an event
+
+What is a stream-table join?
+Joining a stream event with some persisted datastore table that must be retrieved. The data can either be loaded into memory for fast access or requests each time from some datastore
+
+What is table-table join?
+(materialized view maintenance)
+- both input streams are database changelogs
+- every change on one side is joined with the latest state of the other side
+- output is a stream of changes to the materialized view of the join between the 2 tables
+
+What is microbatching?
+Whenever you break a stream into small blocks to be processed like batch processes
+- batch size is typically around 1 second
+
+What is an idempotent operation?
+one that you can perform multiple times, and it has the same effect as if you performed it only once. For example, setting a key in a key-value store to some fixed value is idempotent (writing the value again simply overwrites the value with an identical value), whereas incrementing a counter is not idempotent (performing the increment again means the value is incremented twice)
