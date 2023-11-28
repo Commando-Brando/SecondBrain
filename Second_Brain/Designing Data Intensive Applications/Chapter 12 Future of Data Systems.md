@@ -7,4 +7,22 @@ entrusted to him, since a ship is ordained to something else as its end, viz. to
 in port forever.)  
 —St. Thomas Aquinas, Summa Theologica (1265–1274)
 
-pg 493
+A partitioned system with secondary indexes either needs to send writes to multiple partitions (if the index is term-partitioned) or send reads to all partitions (if the index is document-partitioned). Such cross-partition communication is also most reliable and scalable if the index is maintained asynchronously
+
+How does stream processing support derived data views?
+Stream processing allows changes in the input to be reflected in derived views with low delay
+
+How does batch processing support derived data views?
+batch processing allows large amounts of accumulated historical data to be reprocessed in order to derive new views onto an existing dataset.
+
+How does reprocessing data allow in a way schema migration?
+Batch & stream processing can be used to produce a new derived data view, effectively a schema change of another derived view. Derived views allow gradual evolution of your data schema 
+
+What is a lambda architecture?
+- incoming data should be recorded by appending immutable events to an always-growing dataset, similarly to event sourcing
+- from the events read-optimized views are derived
+- run batch processing system (like Hadoop) & streaming processing system (like Storm) in parallel
+- both systems process all events
+- stream processing updates derived views quickly and batch process later updates the derived view with more accurate data
+
+What is an ETL process
