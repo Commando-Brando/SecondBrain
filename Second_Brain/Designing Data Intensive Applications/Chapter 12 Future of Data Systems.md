@@ -25,4 +25,13 @@ What is a lambda architecture?
 - both systems process all events
 - stream processing updates derived views quickly and batch process later updates the derived view with more accurate data
 
-What is an ETL process
+
+What is a federated database?
+(AKA polystore)
+- unified query interface to a wide variety of underlying storage engines and processing methods
+
+--- Anki Cards Needed ---
+
+What is an unbundled database?
+
+pg 521
