@@ -32,6 +32,12 @@ What is a federated database?
 
 --- Anki Cards Needed ---
 
-What is an unbundled database?
+What is the CAP theorem?
+Update ETL card
 
-pg 521
+
+data warehouse  
+A database in which data from several dif‐  
+ferent OLTP systems has been combined  
+and prepared to be used for analytics pur‐  
+poses

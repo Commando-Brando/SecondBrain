@@ -11,8 +11,12 @@
             "id": "d0d89a14deecf845",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md"
+              }
             }
           }
         ]
