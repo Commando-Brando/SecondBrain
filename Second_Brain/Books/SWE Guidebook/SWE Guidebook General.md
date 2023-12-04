@@ -1,0 +1,1 @@
+Do not assume your manager will take care of promotion and career growth for you. It helps a manager a lot if you are proactive about your advancement
