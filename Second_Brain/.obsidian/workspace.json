@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1ed3aba008634919",
+        "id": "0317af35106fc7d4",
         "type": "tabs",
         "children": [
           {
-            "id": "d0d89a14deecf845",
+            "id": "83268eb9ce5dd547",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0d89a14deecf845",
+  "active": "83268eb9ce5dd547",
   "lastOpenFiles": [
+    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
+    "CSharp/Basics.md",
+    "CSharp",
+    "Hardware.md",
+    "AI.md",
+    "Articles.md",
     "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231122152427.png",
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
@@ -161,7 +159,6 @@
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
     "Books/SWE Guidebook/SWE Guidebook General.md",
     "Books/SWE Guidebook/Further Exploration.md",
-    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
     "Books/Designing Data Intensive Applications/Images",
     "Books/Designing Data Intensive Applications/Further Exploration.md",
     "Books/Designing Data Intensive Applications/Glossary.md",
@@ -183,9 +180,6 @@
     "Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
     "Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
     "Designing Data Intensive Applications/Further Exploration.md",
-    "NixOS/NixOS.md",
-    "Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
-    "AI.md",
-    "Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md"
+    "NixOS/NixOS.md"
   ]
 }
