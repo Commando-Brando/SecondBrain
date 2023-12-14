@@ -13,6 +13,74 @@ What are the main tradeoffs working at a cost center vs profit center?
 - Cost centers are harder to get promoted so attrition is higher 
 - Easier to get promoted in profit centers
 
+What is a chaos test?
+- A test where a process randomly kills services in a system to identify how service going down effects others so they can be made more independent
+(Page 202)
+
+What are snapshot tests?
+- Tests that compare the output of a test to a pre-recorded output. Most frequently used in web and mobile development where the snapshot is an image of a screen. The test then compares how closely the snapshot is to the output of the test
+(Page 202)
+
+What are app size/bundle size tests?
+For mobile/web apps, tests the size of an app or the initially loaded bundle can be a focus. Teams can monitor the size and set alerts for when a threshold is exceeded
+(Page 203)
+
+What are smoke tests?
+Testing simple aspects of an app to find something obviously wrong with the product. Comes from the idea of smoke testing a circuit board by plugging it into power. If the board smokes we know its bad and has issues. An example is, does the app launch without crashing?
+(Page 203)
+
+What are performance tests?
+Testing the performance of a app/system.
+For example, after a PR merged into production does it effect latency of a backend service
+(Page 201)
+
+What are load tests?
+Tests that ensure a system performs adequately under specific load.
+There are 2 main types:
+- Testing an existing system using some kind of testing infastructure
+- Batching existing production requests. Production requests are delayed on purpose, after enough batching all requests are sent at an increased rate to production systems.
+- Testing smaller version of infrastructure, instead of testing 10x load on existing system test the normal load on 1/10th of the system
+(Page 201)
+
+What is a multi-tenancy system?
+
+
+What are RFCs?
+(Requests For Comment)
+Design documents used to get feedback on a design of a project and the why behind the decisions made of the design. It generally is made before or at the beginning of a project but can also be done after a project is complete to help others understand why the project was designed in the way it was.
+(Page 207)
+
+What are architecture documents?
+Documents that are for recording descisions made with little intent for feedback
+Popular kinds are:
+- ADR
+- C4 Model
+- Arc42
+(Page 209)
+
+What is a project kickoff?
+When all project stakeholders meet to confirm they understand the goals and approach of the project and endorse the high-level plan
+(Page 226)
+
+What is an engineering kickoff?
+Comes after a project kickoff and aligns the engineering team and relevant engineering stakeholders on the "how" of a project.
+(Page 227)
+
+What is a PRD?
+(Product Requirements Document)
+A document written for a project that describes a project's "why" and "what". While engineering is involved it is not about engineering, rather it is about aligning all product, engineering, design, data science, and business stakeholders.
+(Page 226)
+
+
+
+
+
+[Uber Article](https://www.uber.com/blog/multitenancy-microservice-architecture/)
+(Page 204)
+
+What is PII?
+Personal identifiable information, user information that might be protected by compliance 
+
 What are KPIs?
 (Key performance indicators)
  a type of performance measurement. KPIs evaluate the success of an organization or of a particular activity in which it engages
@@ -59,6 +127,14 @@ What are the main Microsoft levels?
 28. Be detailed but concise when reporting on your work and the challenges you faced and how you overcame them
 29. Block time to do deep work kind of as a high priority meeting so you do not get distracted but avoid overdoing it
 30. Read the [Google Code Review Guide](https://slab.com/library/examples/google-code-review/)
+31. Draw a map of the teams that our team works with and our relationship to those teams - lookup good tips for this bottom of page 177
+	1. Overtime (years) introduce yourself to at least one senior person on each adjacent team and try to learn something new about the teams and build relationships
+32. 
+
+## Mentorship
+Approach a possible mentor with the following:
+"You're someone I look up to. Can I set up a time to talk about areas I'd like to grow in and how you could potentially help, as a mentor?"
+See Page 172 for topics to bring up at the meeting
 
 ## Getting stuff done
 1. There are a lot of things you can work on always know what your #1 priority is and make sure it gets delivered on time even if you have to delay other things
@@ -105,4 +181,13 @@ What are the main Microsoft levels?
 
 
 35 pages a day
-Goal pages 133-170
+Goal pages 207-242
+
+
+Further Readings:
+- For giving good feedback and speaking better
+	- Radical Candor
+	- Crucial Conversations
+- Domain Driven Development
+	- Learning Domain-Driven Design by Vlad
+	- Domain-Driven Design Eric Evans

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0317af35106fc7d4",
+        "id": "5f5b1851819ac4d3",
         "type": "tabs",
         "children": [
           {
-            "id": "83268eb9ce5dd547",
+            "id": "f5736f814bf58d62",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83268eb9ce5dd547",
+  "active": "f5736f814bf58d62",
   "lastOpenFiles": [
-    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
     "CSharp/Basics.md",
+    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
     "CSharp",
     "Hardware.md",
     "AI.md",
