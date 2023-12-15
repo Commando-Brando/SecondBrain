@@ -71,7 +71,21 @@ What is a PRD?
 A document written for a project that describes a project's "why" and "what". While engineering is involved it is not about engineering, rather it is about aligning all product, engineering, design, data science, and business stakeholders.
 (Page 226)
 
+What is Trunk based development?
 
+(Page 244)
+
+What is a stakeholder?
+People and groups with an interest in a project's outcome
+(Page 257)
+
+What are upstream dependencies?
+Your team's project dependencies that y'all rely on to complete your project
+Page(259)
+
+What are downstream dependencies?
+The projects that rely on your project as a dependency for their completion
+Page(259)
 
 
 
@@ -181,7 +195,7 @@ See Page 172 for topics to bring up at the meeting
 
 
 35 pages a day
-Goal pages 207-242
+Goal pages 244-279
 
 
 Further Readings:
