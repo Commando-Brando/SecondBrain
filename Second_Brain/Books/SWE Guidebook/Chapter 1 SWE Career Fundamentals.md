@@ -44,6 +44,32 @@ There are 2 main types:
 
 What is a multi-tenancy system?
 
+What is weak/strong consistency?
+
+What is write through cache?
+
+What is idempotency?
+
+What is a two-door decision?
+A decision that can be easily reversed implying it has little risk. 
+Examples:
+- A/B testing a new feature using a feature flag
+- Naming variables in internal code
+- Choosing a linter
+(Page 363)
+
+What is a one-door decision?
+A decision that once taken is difficult to reverse or even sometimes permanent. Although, most software decisions are irreversible reversable decisions become one-way when reversing is too expensive for an organization to do.
+Examples:
+- Selecting a programming language or framework
+- Switching between a micro-services or monolith architecture 
+- Cloud vs on-premises 
+Page(363)
+
+What is the main difference between one-door vs two-door decisions?
+Two-door are easily reversable so they have little to no risk
+Page(363)
+
 
 What are RFCs?
 (Requests For Comment)
@@ -51,7 +77,7 @@ Design documents used to get feedback on a design of a project and the why behin
 (Page 207)
 
 What are architecture documents?
-Documents that are for recording descisions made with little intent for feedback
+Documents that are for recording decisions made with little intent for feedback
 Popular kinds are:
 - ADR
 - C4 Model
@@ -79,6 +105,10 @@ What is a stakeholder?
 People and groups with an interest in a project's outcome
 (Page 257)
 
+What is a strategic stakeholder?
+People or teams who you want to keep in the loop about a project, who can often help unblock upstream dependencies.
+(Page 259)
+
 What are upstream dependencies?
 Your team's project dependencies that y'all rely on to complete your project
 Page(259)
@@ -86,6 +116,27 @@ Page(259)
 What are downstream dependencies?
 The projects that rely on your project as a dependency for their completion
 Page(259)
+
+What is a north star?
+An ambiguous generally ambitious (possibility unreachable) goal for an organization to keep the mission of the org on track and motivated
+(Page 292)
+
+What is a KPI?
+(Key Performance Indicator)
+A quantifiable measure for progress in an area. Most north star metrics are captured in KPIs.
+Example, uptime, the amount of time a service is fully operational
+(Page 292)
+
+What are OKRs?
+(Objectives and Key Results)
+A popular approach for setting and measuring goals at tech companies, introduced by Google in 1999. They are set on multiple levels in an organization and set 2 main components:
+- Objective: a high level goal that is qualitative, meaning not necessarily measurable
+- Key results: measurable outcomes that help determine progress toward achieving the objective
+(Page 293)
+
+What is a SWOT analysis document?
+
+(Page 298)
 
 
 
@@ -143,7 +194,7 @@ What are the main Microsoft levels?
 30. Read the [Google Code Review Guide](https://slab.com/library/examples/google-code-review/)
 31. Draw a map of the teams that our team works with and our relationship to those teams - lookup good tips for this bottom of page 177
 	1. Overtime (years) introduce yourself to at least one senior person on each adjacent team and try to learn something new about the teams and build relationships
-32. 
+32. Read through the docs of what you work on from the users perspective 
 
 ## Mentorship
 Approach a possible mentor with the following:
@@ -195,7 +246,7 @@ See Page 172 for topics to bring up at the meeting
 
 
 35 pages a day
-Goal pages 244-279
+Goal pages 331-330
 
 
 Further Readings:
