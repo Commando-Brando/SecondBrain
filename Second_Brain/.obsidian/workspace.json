@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a191bcebdec02e96",
+            "id": "74d1d2468878ede0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Books/Pragmatic Programmer/Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/Pragmatic Programmer/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/Pragmatic Programmer/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/First 90 Days/First 90 Days.md"
+                "file": "Books/Pragmatic Programmer/Notes.md"
               }
             }
           }
@@ -140,12 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "689c21105a7be216",
+  "active": "74d1d2468878ede0",
   "lastOpenFiles": [
+    "Personal Finance/Taxes.md",
+    "Books/Pragmatic Programmer/Notes.md",
+    "Books/Pragmatic Programmer",
+    "Books/SWE Guidebook/SWE Guidebook General.md",
+    "Personal Finance",
+    "Books/SWE Guidebook/Questions.md",
+    "Books/SWE Guidebook/Further Exploration.md",
+    "NixOS/Nix-Shell.md",
+    "NixOS/NixOS.md",
+    "Linux.md",
     "Books/First 90 Days/First 90 Days.md",
     "Books/First 90 Days",
     "Books/First 90 Days.md",
-    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
     "CSharp/Basics.md",
     "CSharp",
     "Hardware.md",
@@ -162,8 +177,6 @@
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
     "Books/Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
-    "Books/SWE Guidebook/SWE Guidebook General.md",
-    "Books/SWE Guidebook/Further Exploration.md",
     "Books/Designing Data Intensive Applications/Images",
     "Books/Designing Data Intensive Applications/Further Exploration.md",
     "Books/Designing Data Intensive Applications/Glossary.md",
@@ -176,13 +189,8 @@
     "Books/Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
     "Books/Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
     "Books/Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
-    "Books/Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
-    "Books/Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
-    "Books/Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md",
     "Books/SWE Guidebook",
     "Books/Designing Data Intensive Applications",
-    "Books",
-    "Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
-    "Designing Data Intensive Applications/Chapter 10 Batch Processing.md"
+    "Books"
   ]
 }
