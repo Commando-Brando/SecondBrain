@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "70c1b32f172eb20e",
+        "id": "7a45784aecdfb337",
         "type": "tabs",
         "children": [
           {
-            "id": "9f3e2bfda6e1a858",
+            "id": "212ae6bd7ddebe59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md"
+              }
             }
           }
         ]
@@ -138,19 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f3e2bfda6e1a858",
+  "active": "212ae6bd7ddebe59",
   "lastOpenFiles": [
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608182145.png",
+    "Books/System Design Insiders Guide/Images",
     "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
     "Books/Pragmatic Programmer/Notes.md",
     "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md",
-    "Pasted image 20240608193819.png",
-    "Pasted image 20240608191000.png",
-    "Pasted image 20240608184832.png",
-    "Pasted image 20240608184741.png",
-    "Pasted image 20240608183926.png",
-    "Pasted image 20240608182755.png",
-    "Pasted image 20240608182228.png",
-    "Pasted image 20240608182145.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608193819.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608191000.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608184832.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608184741.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608183926.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608182755.png",
+    "Books/System Design Insiders Guide/Images/Pasted image 20240608182228.png",
     "Books/System Design 1",
     "Books/SWE Guidebook/Questions.md",
     "Books/SWE Guidebook/SWE Guidebook General.md",
@@ -183,7 +192,6 @@
     "Books/Designing Data Intensive Applications/Chapter 5 Replication.md",
     "Self-Hosted.md",
     "Academic Research/Anki LLM/Images",
-    "Academic Research/Anki LLM",
-    "Academic Research"
+    "Academic Research/Anki LLM"
   ]
 }
