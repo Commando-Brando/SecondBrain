@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "9dad6576798d3936",
+    "id": "d8644a495b47017b",
     "type": "split",
     "children": [
       {
-        "id": "7d8b244e4ab1a126",
+        "id": "70c1b32f172eb20e",
         "type": "tabs",
         "children": [
           {
-            "id": "74d1d2468878ede0",
+            "id": "9f3e2bfda6e1a858",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Pragmatic Programmer/Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "230c55f089b9b58f",
+    "id": "830de300435da2c9",
     "type": "split",
     "children": [
       {
-        "id": "75c87ff6a7300509",
+        "id": "80d14a763b2ec333",
         "type": "tabs",
         "children": [
           {
-            "id": "689c21105a7be216",
+            "id": "d31f484b331c7c53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "6270939d449ff76e",
+            "id": "f62ff3c9a57e44dc",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "8d8238f7b0e17f34",
+            "id": "a4c1b91939431305",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.5
   },
   "right": {
-    "id": "c789e573e5652faa",
+    "id": "18046352c32c198e",
     "type": "split",
     "children": [
       {
-        "id": "c7e72058b5dcc5ff",
+        "id": "fa9c3e1435a3371c",
         "type": "tabs",
         "children": [
           {
-            "id": "a247ee2038338069",
+            "id": "27b92ad271734e82",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Pragmatic Programmer/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "df5d60d06e1a90a4",
+            "id": "6bf63aba1f9e1f8f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Pragmatic Programmer/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c284fa14020ecc4a",
+            "id": "8af1571bc23a07b3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "80376602ca754030",
+            "id": "a03b5872bd663c65",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Books/Pragmatic Programmer/Notes.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,51 +138,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74d1d2468878ede0",
+  "active": "9f3e2bfda6e1a858",
   "lastOpenFiles": [
-    "Personal Finance/Taxes.md",
+    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
     "Books/Pragmatic Programmer/Notes.md",
-    "Books/Pragmatic Programmer",
-    "Books/SWE Guidebook/SWE Guidebook General.md",
-    "Personal Finance",
+    "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md",
+    "Pasted image 20240608193819.png",
+    "Pasted image 20240608191000.png",
+    "Pasted image 20240608184832.png",
+    "Pasted image 20240608184741.png",
+    "Pasted image 20240608183926.png",
+    "Pasted image 20240608182755.png",
+    "Pasted image 20240608182228.png",
+    "Pasted image 20240608182145.png",
+    "Books/System Design 1",
     "Books/SWE Guidebook/Questions.md",
-    "Books/SWE Guidebook/Further Exploration.md",
+    "Books/SWE Guidebook/SWE Guidebook General.md",
+    "Personal Finance/Taxes.md",
+    "Personal Finance",
     "NixOS/Nix-Shell.md",
-    "NixOS/NixOS.md",
     "Linux.md",
-    "Books/First 90 Days/First 90 Days.md",
-    "Books/First 90 Days",
-    "Books/First 90 Days.md",
     "CSharp/Basics.md",
     "CSharp",
-    "Hardware.md",
-    "AI.md",
+    "Books/System Design Insiders Guide",
+    "Books/Pragmatic Programmer",
     "Articles.md",
-    "Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122152427.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231108115435.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231108123713.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231108123735.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122140159.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231107110905.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231031134106.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231106101139.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231102122042.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231031131255.png",
-    "Books/Designing Data Intensive Applications/Images",
-    "Books/Designing Data Intensive Applications/Further Exploration.md",
-    "Books/Designing Data Intensive Applications/Glossary.md",
-    "Books/Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
-    "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
-    "Books/Designing Data Intensive Applications/Chapter 7 Transactions.md",
-    "Books/Designing Data Intensive Applications/Chapter 6 Partitioning.md",
-    "Books/Designing Data Intensive Applications/Chapter 5 Replication.md",
-    "Books/Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md",
-    "Books/Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md",
-    "Books/Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md",
-    "Books/Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
+    "Books/SWE Guidebook/Chapter 1 SWE Career Fundamentals.md",
+    "Books/SWE Guidebook/Further Exploration.md",
     "Books/SWE Guidebook",
-    "Books/Designing Data Intensive Applications",
-    "Books"
+    "Books",
+    "Books/Designing Data Intensive Applications/Chapter 11 Stream Processing.md",
+    "Books/Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
+    "Academic Research/Abigail Zhang.md",
+    "Books/Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
+    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122152427.png",
+    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122140159.png",
+    "Books/Designing Data Intensive Applications/Further Exploration.md",
+    "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
+    "Books/Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
+    "Books/Designing Data Intensive Applications/Chapter 7 Transactions.md",
+    "AI.md",
+    "Books/Designing Data Intensive Applications/Chapter 6 Partitioning.md",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "Books/Designing Data Intensive Applications/Chapter 5 Replication.md",
+    "Self-Hosted.md",
+    "Academic Research/Anki LLM/Images",
+    "Academic Research/Anki LLM",
+    "Academic Research"
   ]
 }
