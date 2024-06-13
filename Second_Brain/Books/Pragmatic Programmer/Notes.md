@@ -37,3 +37,82 @@
 
 # Chapter 5
 
+What is the law of Demeter (LoD)?
+A set of guidelines written in the late 80s by Ian Holland. He created them to help developers on the Demeter Project keep their functions cleaner and decoupled.
+The LoD says that a method defined in a class C should only call:
+• Other instance methods in C
+• Its parameters
+• Methods in objects that it creates, both on the stack and in the heap 
+• Global variables (not reccomended)
+
+I think it should be noted to avoid having the class create objects and instead use dependency injection
+
+  
+
+What does it mean to avoid chain method calls?
+Try not to have more than one “.” when you access something.
+```cs
+// This is pretty poor style
+amount = customer.orders.last().totals().amount;
+
+// and the opposite is as well like:
+orders = customer.orders;
+last = orders.last();
+totals = last.totals();
+amount = totals.amount;
+```
+  A pragmatic approach would be to add method(s) to the customer class that wraps some of those additional calls like:
+```cs
+amount = customer.getLastTotal();
+```
+There is a big exception to this for functional pipelines where the things you are chaining are not likely to ever change, for example the LINQ library in C#. More on [functional programming pipelines](https://www.youtube.com/watch?v=nuML9SmdbJ4)
+
+**What is the impact of using global data on the coupling of application components?**
+Global data increases coupling as every method in an application can access it, essentially acting like an added parameter. This makes it difficult to modify one part without potentially impacting the entire system.
+
+**How does global data affect code reuse and unit testing?**
+Global data complicates code reuse by making it hard to extract and isolate code without pulling in dependencies. For unit testing, it requires extensive setup to create a global environment, which complicates test configurations and execution.
+
+**What is the issue with disguising global variables as singletons or global modules, and how can this be improved?**
+Even when global variables are wrapped in singletons or global modules, they remain global data but with a more complex access method. Improvements include encapsulating the data behind methods that manage the data intelligently, such as through getter and setter methods, to maintain compatibility and control over data representation.
+
+**Question:** Why are event-driven applications considered more interactive and efficient? **Answer:** Event-driven applications respond dynamically to events, making them more interactive for users. They also optimize resource use by reacting only when relevant data changes or events occur, rather than continuously polling for updates.
+
+What are the four strategies to help design event driven applications?
+1. Finite State Machines
+2. The Observer Pattern
+3. Publish/Subscribe
+4. Reactive Programming and Streams
+
+**Give an example of how a Finite State Machine can be implemented to parse messages.**
+Consider a scenario where a system parses multipart messages from a websocket:
+
+- **Initial State**: Waiting for any message.
+- **Transitions**:
+    - If a header message is received, transition to the "Reading message" state.
+    - If a data message is received while in the "Reading message" state, stay in the same state.
+    - If a trailer message is received while in the "Reading message" state, transition to the "Done" state.
+    - Any other message in any state leads to the "Error" state. This FSM effectively handles the flow of different message types, ensuring that each is processed in the correct order and context.
+![[Pasted image 20240613085406.png]]
+Reference: Pragmatic Programmer Page 138
+
+**What is a Finite State Machine (FSM) and what are its basic components?**
+A Finite State Machine (FSM) is a model of computation consisting of a finite number of states. It transitions from one state to another in response to external inputs. Each state specifies certain actions to perform and the conditions for transitioning to other states. The basic components of an FSM include:
+
+- **States**: Different conditions or situations in which the FSM can exist.
+- **Events**: Inputs or occurrences that can trigger transitions between states.
+- **Transitions**: The rules that define how to move from one state to another based on events.
+- **Initial State**: The state in which the FSM begins operation.
+[Youtube Reference](https://www.youtube.com/watch?v=4rNYAvsSkwk)
+Pragmatic Programmer Page 138
+
+**What are the advantages of using Finite State Machines in programming?** 
+Finite State Machines offer several advantages in software development:
+
+- **Clarity**: FSMs provide a clear and structured way to handle different scenarios, making the logic easy to understand and debug.
+- **Manage Complexity**: They help manage complex conditions and state transitions in an organized manner.
+- **Predictability**: FSMs operate predictably, as the outcomes and transitions are predefined based on the current state and incoming events.
+- **Scalability**: Easy to modify and extend, FSMs can accommodate new states and transitions without significant restructuring.
+Reference: Pragmatic Programmer Page 138
+
+

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7a45784aecdfb337",
+        "id": "1fab7c60a29dfe9f",
         "type": "tabs",
         "children": [
           {
-            "id": "212ae6bd7ddebe59",
+            "id": "8898a76a362d63c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+                "file": "Books/Pragmatic Programmer/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+                "file": "Books/Pragmatic Programmer/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+                "file": "Books/Pragmatic Programmer/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md"
+                "file": "Books/Pragmatic Programmer/Notes.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "212ae6bd7ddebe59",
+  "active": "8898a76a362d63c9",
   "lastOpenFiles": [
+    "Books/Pragmatic Programmer/Notes.md",
+    "Pasted image 20240613085406.png",
+    "Pasted image 20240613085350.png",
+    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
     "Books/System Design Insiders Guide/Images/Pasted image 20240608182145.png",
     "Books/System Design Insiders Guide/Images",
-    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
-    "Books/Pragmatic Programmer/Notes.md",
     "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md",
     "Books/System Design Insiders Guide/Images/Pasted image 20240608193819.png",
     "Books/System Design Insiders Guide/Images/Pasted image 20240608191000.png",
@@ -180,8 +182,6 @@
     "Books/Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md",
     "Academic Research/Abigail Zhang.md",
     "Books/Designing Data Intensive Applications/Chapter 10 Batch Processing.md",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122152427.png",
-    "Books/Designing Data Intensive Applications/Images/Pasted image 20231122140159.png",
     "Books/Designing Data Intensive Applications/Further Exploration.md",
     "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
     "Books/Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md",
