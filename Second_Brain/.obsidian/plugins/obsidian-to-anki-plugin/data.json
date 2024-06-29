@@ -1,0 +1,291 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "1- simple": "",
+      "2- cloze ": "",
+      "Basic": "",
+      "Basic (type in the answer)-d5c56": "",
+      "Basic Card": "",
+      "Basic+": "",
+      "Basic++": "",
+      "Basic-0dc55": "",
+      "Basic-14cef": "",
+      "Basic-28f65-99427": "",
+      "Basic-3f0b6": "",
+      "Basic-494b5": "",
+      "Basic-6554a": "",
+      "Basic-79df2": "",
+      "Basic-b11bd": "",
+      "Basic-c13d4": "",
+      "Basic-d87af": "",
+      "Cloze": "",
+      "Tech Term Card Model": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "- IT - AnkiLearn     ": "Front",
+      "01 BASIC": "Front",
+      "1- simple": "question",
+      "2- cloze ": "answer",
+      "5000 French Words 2.0 (E to F)": "Word",
+      "5000 French Words 2.0 (E to F) C": "Word",
+      "5000 French Words 2.0 (F to E)": "Word",
+      "5000 French Words 2.0 (F to E) C": "Word",
+      "Basic": "Front",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (type in the answer)": "Front",
+      "Basic (type in the answer)-d5c56": "Front",
+      "Basic Card": "Front",
+      "Basic+": "Front",
+      "Basic++": "Front",
+      "Basic-0dc55": "Front",
+      "Basic-14cef": "Front",
+      "Basic-28b4d": "Front",
+      "Basic-28f65-99427": "Front",
+      "Basic-3f0b6": "Front",
+      "Basic-494b5": "Front",
+      "Basic-624ca": "Front",
+      "Basic-6554a": "Front",
+      "Basic-741d3": "Front",
+      "Basic-79df2": "Front",
+      "Basic-b11bd": "Front",
+      "Basic-c13d4": "Front",
+      "Basic-c2add": "Front",
+      "Basic-d2810": "Front",
+      "Basic-d341c": "Front",
+      "Basic-d87af": "Front",
+      "Big Singles": "Front",
+      "Cloze": "Text",
+      "Computer Science Concepts": "Front",
+      "Core 2000": "Optimized-Voc-Index",
+      "French aspirated h": "word",
+      "French Ear Training": "Back",
+      "French IPA deck": "1",
+      "French irregular pronunciation": "freq index",
+      "French phonology": "index",
+      "French sentences Read Training": "Front",
+      "French sentences Speak Training": "Front",
+      "French Verbs": "1",
+      "French vowels comparison": "Front",
+      "Hangul Basic (and reversed card)": "Front",
+      "Hanzi Writing": "Hanzi",
+      "Hiragana Note": "Hiragana",
+      "Image Occlusion": "Occlusion",
+      "Intro card": "Front",
+      "Japanese": "Expression",
+      "Japanese (recognition&recall)-cd73a": "Expression",
+      "Japanese with Pitch Accent": "Expression",
+      "Japanese-c255f": "Expression",
+      "Katakana with stroke diagrams and audio": "id",
+      "KaTeX and Markdown Basic": "Front",
+      "KaTeX and Markdown Cloze": "Text",
+      "Kawajapa Sound Sisters": "Sound Sister",
+      "Korean Sentence": "Korean",
+      "Tech Term Card Model": "Question",
+      "UVBasic-English": "英语单词",
+      "红宝书": "单词"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "Academic Research": "",
+      "Books": "",
+      "CSharp": "",
+      "NixOS": "",
+      "Personal Finance": "",
+      "Python": "",
+      "Web": "",
+      "Academic Research/Anki LLM": "",
+      "Books/Designing Data Intensive Applications": "",
+      "Books/Pragmatic Programmer": "",
+      "Books/System Design Insiders Guide": "",
+      "Books/SWE Guidebook": "",
+      "Academic Research/Anki LLM/Images": "",
+      "Books/Designing Data Intensive Applications/Images": "",
+      "Books/System Design Insiders Guide/Images": "",
+      "Books/Pragmatic Programmer/images": ""
+    },
+    "FOLDER_TAGS": {
+      "Academic Research": "",
+      "Books": "",
+      "CSharp": "",
+      "NixOS": "",
+      "Personal Finance": "",
+      "Python": "",
+      "Web": "",
+      "Academic Research/Anki LLM": "",
+      "Books/Designing Data Intensive Applications": "",
+      "Books/Pragmatic Programmer": "",
+      "Books/System Design Insiders Guide": "",
+      "Books/SWE Guidebook": "",
+      "Academic Research/Anki LLM/Images": "",
+      "Books/Designing Data Intensive Applications/Images": "",
+      "Books/System Design Insiders Guide/Images": "",
+      "Books/Pragmatic Programmer/images": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md"
+    ]
+  },
+  "Added Media": [
+    "Pasted image 20240615200703.png",
+    "Pasted image 20240615200856.png",
+    "Pasted image 20240615201641.png"
+  ],
+  "File Hashes": {
+    "Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
+    "Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
+    "Startup.md": "0909f78383a7c94a40a5988252f80171",
+    "Social Apps.md": "d7ce127069a8e76d3d93b76505c003be",
+    "Self-Hosted.md": "88c0c31bcba53556008b5df0c162b02f",
+    "Readings.md": "b45e93d75c89feeabcdbaf97e2c22730",
+    "Python/FastAPI.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Projects.md": "2ae1a096907e8a88295eb60121621fed",
+    "Personal Finance/Taxes.md": "2bf67ac8ddcd0b44ecd4db83e4d28a4a",
+    "NixOS/NixOS.md": "fe12bef5939d3b5d7605a394d55ec8c9",
+    "NixOS/Nix-Shell.md": "ce3565dfd5cb6535e127d354d5ae4793",
+    "Microsoft.md": "d888580e37d3fdf9608a89c2c672b57c",
+    "Linux.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Hardware.md": "2279ef971cf27b7eca05d8decc31ad9e",
+    "Encryption Encoding.md": "b775f817a01cf5c12676d015f1864318",
+    "Databases.md": "59eaba350999b980fd2c1aff888c444e",
+    "Cyber Security.md": "dab66f8b8f41756a5f2adbb5609bfb9b",
+    "Code Styling.md": "9ed632a4f6840b7ef845876d33e27aff",
+    "Career.md": "09700ed09664d43f0cf387459fdbbf42",
+    "CSharp/Basics.md": "55733a1cc9a583d453c39871d6b566ee",
+    "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md": "33401c991ff9bd887f28088191411492",
+    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md": "64148f0bdb25d735148bc0bba59193bb",
+    "Books/SWE Guidebook/SWE Guidebook General.md": "f7652790c4ba6298095b18ac2a08f413",
+    "Books/SWE Guidebook/Questions.md": "97cb5da7357bccd6e8f11a589022e25d",
+    "Books/Pragmatic Programmer/Notes.md": "0a059b69ae035a73e7dc8a19308f3d34",
+    "Books/Designing Data Intensive Applications/Glossary.md": "04bb5de63e02257b2dd256a62bfb6ea4",
+    "Books/Designing Data Intensive Applications/Further Exploration.md": "782d563007f79b55ca4e5b84acaf914a",
+    "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md": "c600de4a3b81e7828e5459010785b515",
+    "Books/Designing Data Intensive Applications/Chapter 8 Trouble with Distributed Systems.md": "f92fdfea4fc0b1734ab08e7c0369ff21",
+    "Books/Designing Data Intensive Applications/Chapter 7 Transactions.md": "5ef3a88fe26d0c85623336747d13a745",
+    "Books/Designing Data Intensive Applications/Chapter 6 Partitioning.md": "b18b421c1b4ec60a30f56a4a07ec541c",
+    "Books/Designing Data Intensive Applications/Chapter 5 Replication.md": "757fa57a81e9f32cb18308548f71d4b5",
+    "Books/Designing Data Intensive Applications/Chapter 4 Encoding & Evolution.md": "b24419cdfc96f2e489fbb191bd17db27",
+    "Books/Designing Data Intensive Applications/Chapter 3 Storage & Retrieval.md": "6203be9be26ca67d6dec961ddcb0c53a",
+    "Books/Designing Data Intensive Applications/Chapter 2 Data Models & Query Languages.md": "75ae8d32ee0b99058def64116581d656",
+    "Books/Designing Data Intensive Applications/Chapter 12 Future of Data Systems.md": "961ffd831283d8f8d52bb7830bfb91ab",
+    "Books/Designing Data Intensive Applications/Chapter 11 Stream Processing.md": "901c44f641eea4a51aa812618b6e2cbf",
+    "Books/Designing Data Intensive Applications/Chapter 10 Batch Processing.md": "bebfafec1f56e21a752ee7bf07c887c2",
+    "Books/Designing Data Intensive Applications/Chapter 1 Reliability Scalability Maintainability.md": "112f442c6c55ef89ebc6c85915f20d28",
+    "Articles.md": "b473b47cbea0a00bd9f8ffeba77dacf9",
+    "Academic Research/Anki LLM/References.md": "db9c8fd196eb26137159c3741885541d",
+    "Academic Research/Anki LLM/Literature Review.md": "110cf9af271520422e7b1981f700024c",
+    "Academic Research/Anki LLM/Articles.md": "76f83cb384364f9105b54efe0c4dabc4",
+    "Academic Research/Academic Research.md": "25e138a35ba4932729abc49096c0a2df",
+    "AI.md": "121b27789220751d2b90b179cf2806db",
+    "Books/Pragmatic Programmer/C5 Bend or Break.md": "e9341491316c2df697fa09b16bfaa162",
+    "Books/Pragmatic Programmer/C4 Pragmatic Paranoia.md": "e57fdddfa1324c224f124b51c750aa8c",
+    "Books/Pragmatic Programmer/C3 Basic Tools.md": "7b8c8339cfff5b5f630a4bf3dda34dd7",
+    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md": "3260df6cf4b19c6504cf4e05ff1d734a",
+    "Books/Pragmatic Programmer/C1 Pragmatic Philosophy.md": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "fields_dict": {
+    "1- simple": [
+      "question",
+      "answer",
+      "source",
+      "titles",
+      "info"
+    ],
+    "2- cloze ": [
+      "answer",
+      "source",
+      "titles",
+      "info"
+    ],
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (type in the answer)-d5c56": [
+      "Front",
+      "Back"
+    ],
+    "Basic Card": [
+      "Front",
+      "Back"
+    ],
+    "Basic+": [
+      "Front",
+      "Back"
+    ],
+    "Basic++": [
+      "Front",
+      "Back"
+    ],
+    "Basic-0dc55": [
+      "Front",
+      "Back"
+    ],
+    "Basic-14cef": [
+      "Front",
+      "Back"
+    ],
+    "Basic-28f65-99427": [
+      "Front",
+      "Back"
+    ],
+    "Basic-3f0b6": [
+      "Front",
+      "Back"
+    ],
+    "Basic-494b5": [
+      "Front",
+      "Back"
+    ],
+    "Basic-6554a": [
+      "Front",
+      "Back"
+    ],
+    "Basic-79df2": [
+      "Front",
+      "Back"
+    ],
+    "Basic-b11bd": [
+      "Front",
+      "Back"
+    ],
+    "Basic-c13d4": [
+      "Front",
+      "Back"
+    ],
+    "Basic-d87af": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Extra"
+    ],
+    "Tech Term Card Model": [
+      "Question",
+      "Answer"
+    ]
+  }
+}
