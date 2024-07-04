@@ -93,6 +93,7 @@ Back:
 
 [Design Pattern Gurus Observer Reference](https://refactoring.guru/design-patterns/observer)
 Pragmatic Programmer Page142
+<!--ID: 1719679102611-->
 END
 
 
@@ -104,6 +105,7 @@ Back:
 
 [Design Pattern Gurus Observer Reference](https://refactoring.guru/design-patterns/observer)
 Pragmatic Programmer Page143
+<!--ID: 1719679102613-->
 END
 
 
@@ -126,6 +128,7 @@ Back: In front-end Javascript web components often will listen (subscribe) to a 
 [Javascript Events MDN Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#its_not_just_web_pages)
 [Design Pattern Gurus Observer Reference](https://refactoring.guru/design-patterns/observer)
 Pragmatic Programmer Page 144 Reference 
+<!--ID: 1719679102614-->
 END
 
 #### My thoughts on data transformation pipelines:
@@ -141,6 +144,7 @@ Back: Generally most programming problems can be boiled down to accepting some i
   
   ![[Pasted image 20240615214237.png]]
 Pragmatic Programmer Page 149 Reference 
+<!--ID: 1719679102615-->
 END
 
 
