@@ -91,7 +91,7 @@ broken anything.
 3. Take short, deliberate steps: move a field from one class to another, split
 a method, rename a variable. Refactoring often involves making many
 localized changes that result in a larger-scale change. If you keep your
-steps small, and test after each step, you will avoid prolonged debugging.8
+steps small, and test after each step, you will avoid prolonged debugging.
 
 ## Test to Code
 
@@ -99,23 +99,7 @@ Thinking about how to test your code and sometimes clear ambiguity around the co
 
 Write test function definitions for the test cases before start coding 
 ## Property Based Testing
-
-
-
-
-
-What is a property test?
-
 a type of software testing (usually unit-scoped) that allows developers to test software systems by defining properties (or invariants) that should hold true for a range of inputs.
-
-Below we define our properties with the given function decorator and the test with run with different inputs within the given properties and their constraints.
-![[Pasted image 20240704163313.png]]
-
-What is the recommended practice when you find a test case that fails during property testing?
-This may be an edge case so:
-- create a unit test based on the failing test with the failing inputs are the test parameters
-- Debug and fix the issue
-- Keep the lone unit test as a regression test to prevent others from breaking it since there is not a guarantee the exact same test case will run again if the test cases were randomly generated
 
 ## Stay Safe Out There
 
@@ -133,6 +117,93 @@ START
 Basic
 When you brain is toast and you feel stuck on figuring something out what is the best way to making progress?
 Back: Stop coding and take a walk, nap, sleep, just do something else and let your brain cook on the issue and digest the problem more
+<!--ID: 1720132347397-->
 END
 
+----------
 
+START
+Basic
+When reading someone else's code what is a good strategy to help you understand it?
+Back: Figure out the patterns they use and how they came to the solution and this act of trying to think like them will help you understand the code more and possibly learn something new
+<!--ID: 1720132347412-->
+END
+
+---------
+
+START
+Basic
+What does it mean to deliberately program?
+Back:
+- Be able to explain the code, in detail, to a more junior programmer? If not, perhaps you are relying on coincidences.
+- Don’t code in the dark. Build an application you don’t fully grasp, or use a technology you don’t understand, and you’ll likely be bitten by coincidences. If you’re not sure why it works, you won’t know why it fails
+- Document and validate your assumptions.
+- Don’t just test your code, but test your assumptions as well. Don’t guess; actually try it. Write an assertion to test your assumptions
+<!--ID: 1720132347417-->
+END
+
+---------
+
+START
+Basic
+When you brain is toast and you feel stuck on figuring something out what is the best way to making progress?
+Back: Stop coding and take a walk, nap, sleep, just do something else and let your brain cook on the issue and digest the problem more
+END
+
+---------
+
+START
+Basic
+How is tech debt like a growth disease?
+Back: It only requires a minor invasive procedure to remove now but later it will grow and spread which makes the procedure more invasive and dangerous. Wait too long and you might lose the patient entirely.
+<!--ID: 1720132347422-->
+END
+
+---------
+
+START
+Basic
+What are the 3 rules for refactoring?
+Back: 
+1. Don’t try to refactor and add functionality at the same time.
+2. Make sure you have good tests before you begin refactoring. Run the tests
+as often as possible. That way you will know quickly if your changes have
+broken anything.
+3. Take short, deliberate steps: move a field from one class to another, split
+a method, rename a variable. Refactoring often involves making many
+localized changes that result in a larger-scale change.
+<!--ID: 1720132347426-->
+END
+
+---------
+
+START
+Basic
+How can TDD provide implementation clarity?
+Back: Thinking about how to test your code and sometimes clear ambiguity around the code you are planning to write. Think about test cases first and how the data output should look for you asserts!
+<!--ID: 1720132347430-->
+END
+
+---------
+
+START
+Basic
+What is a property test?
+Back: a type of software testing (usually unit-scoped) that allows developers to test software systems by defining properties (or invariants) that should hold true for a range of inputs.
+
+Below we define our properties with the given function decorator and the test with run with different inputs within the given properties and their constraints.
+![[Pasted image 20240704163313.png]]
+<!--ID: 1720132347434-->
+END
+
+---------
+
+START
+Basic
+What is the recommended practice when you find a test case that fails during property testing?
+Back: This may be an edge case so:
+- create a unit test based on the failing test with the failing inputs are the test parameters
+- Debug and fix the issue
+- Keep the lone unit test as a regression test to prevent others from breaking it since there is not a guarantee the exact same test case will run again if the test cases were randomly generated
+<!--ID: 1720132347437-->
+END

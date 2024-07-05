@@ -152,12 +152,13 @@
     "Pasted image 20240615200703.png",
     "Pasted image 20240615200856.png",
     "Pasted image 20240615201641.png",
-    "Pasted image 20240615214237.png"
+    "Pasted image 20240615214237.png",
+    "Pasted image 20240704163313.png"
   ],
   "File Hashes": {
     "Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
     "Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
-    "Startup.md": "0909f78383a7c94a40a5988252f80171",
+    "Startup.md": "a201a7a647a110bfa6a183ff7976f433",
     "Social Apps.md": "d7ce127069a8e76d3d93b76505c003be",
     "Self-Hosted.md": "88c0c31bcba53556008b5df0c162b02f",
     "Readings.md": "b45e93d75c89feeabcdbaf97e2c22730",
@@ -170,7 +171,7 @@
     "Linux.md": "d41d8cd98f00b204e9800998ecf8427e",
     "Hardware.md": "2279ef971cf27b7eca05d8decc31ad9e",
     "Encryption Encoding.md": "b775f817a01cf5c12676d015f1864318",
-    "Databases.md": "59eaba350999b980fd2c1aff888c444e",
+    "Databases.md": "7311d57f3394b391e91e9fafaf3e849c",
     "Cyber Security.md": "dab66f8b8f41756a5f2adbb5609bfb9b",
     "Code Styling.md": "9ed632a4f6840b7ef845876d33e27aff",
     "Career.md": "09700ed09664d43f0cf387459fdbbf42",
@@ -210,8 +211,9 @@
     "Development/Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
     "Development/Python/FastAPI.md": "d41d8cd98f00b204e9800998ecf8427e",
     "Anki.md": "6ff67b8761d930d1c8c93bf371cb50d4",
-    "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md": "b563ea259520d9d03cedc5d8f82f0ac1",
-    "Books/Pragmatic Programmer/C6 Concurrency.md": "f0f92ab2e89d8296d9251a6284cb8311"
+    "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md": "db57ce1ace245d190a9fb8d54a6038a8",
+    "Books/Pragmatic Programmer/C6 Concurrency.md": "f0f92ab2e89d8296d9251a6284cb8311",
+    "Books/Pragmatic Programmer/C7 While You Are Coding.md": "84ffd88b4f03c6361662431db16ea2c9"
   },
   "fields_dict": {
     "1- simple": [
