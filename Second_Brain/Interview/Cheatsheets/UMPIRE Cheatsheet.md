@@ -62,7 +62,7 @@ Linked List problems are usually some of the easiest to spot and so matching thi
 ### **Plan**
 
 This is the harder part for Linked List problems as dealing with pointer management is where solving this problem can go awry. So we take advantage of our matching of Pointer Bookkeeping tool and perhaps a two-pointer strategy and dummy-head to move forward to visualize the solution.
-![[Pasted image 20240705081959.png]]
+![[traversingcheat.png]]
 In this pointer visualization, I started with the following assumption that I would have one pointer `l` at the end of the left side and `r` pointer at the last known right side position. Then `c` or really just `r.next` would test if the next node is greater than or less than the partition value `p`. In the case labeled 1, value of `c` is >= `p` so in that case the `r` pointer moves forward.
 
 I then fast forward the bookkeeping visualization, to the next position where that condition doesn't hold. This is situation 2, in this case, we need to remove the `c` node from its position and place it somewhere on the left which in the written code is after the `l` node, but we recognize that we need to introduce a temporary pointer `t` so that we can move the `c` node into position without orphaning the rest of the list.

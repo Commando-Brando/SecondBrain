@@ -142,7 +142,7 @@ Back: Generally most programming problems can be boiled down to accepting some i
 
 - Example of breaking a problem down into data transformation steps for figuring out anagrams
   
-  ![[Pasted image 20240615214237.png]]
+  ![[data_trans5.png]]
 Pragmatic Programmer Page 149 Reference 
 <!--ID: 1719679102615-->
 END

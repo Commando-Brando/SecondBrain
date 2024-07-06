@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1610b6fecca7274f",
+        "id": "1179159fd2f88776",
         "type": "tabs",
         "children": [
           {
-            "id": "68acab8f4c1318ab",
+            "id": "d7812b4754951e0f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Interview/Cheatsheets/images/queuecs.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Interview/Cheatsheets/images/queuecs.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Interview/Cheatsheets/images/queuecs.png"
+              }
             }
           }
         ]
@@ -139,25 +143,28 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "68acab8f4c1318ab",
+  "active": "d31f484b331c7c53",
   "lastOpenFiles": [
+    "Interview/Cheatsheets/images/stackcs.png",
+    "Interview/Cheatsheets/images/fulldag5.png",
+    "Interview/Cheatsheets/images/fulldag4.png",
+    "Interview/Cheatsheets/images/fulldag3.png",
+    "Interview/Cheatsheets/images/fulldag2.png",
+    "Interview/Cheatsheets/images/fulldag.png",
+    "Interview/Cheatsheets/images/graph1.png",
+    "Interview/Cheatsheets/images/acycgraph.png",
+    "Interview/Cheatsheets/images/daggraph.png",
+    "Interview/Cheatsheets/images/traversingcheat.png",
+    "Books/Pragmatic Programmer/images/propertyTesting.png",
+    "Interview/Cheatsheets/ima.md",
+    "Interview/Cheatsheets/images",
     "Interview/Cheatsheets/Strings & Arrays Cheatsheet.md",
     "Interview/Cheatsheets/Stacks and Queues Cheatsheet.md",
-    "Pasted image 20240706073234.png",
-    "Pasted image 20240706073216.png",
     "Interview/Cheatsheets/Linked List Cheatsheet.md",
     "Interview/Cheatsheets/Hash Tables Cheatsheet.md",
     "Interview/Cheatsheets/Binary Trees Cheatsheet.md",
     "Interview/Cheatsheets/Backtracking Cheat Sheet.md",
     "Interview/Cheatsheets/Graph Cheatsheet.md",
-    "Pasted image 20240706070443.png",
-    "Pasted image 20240706070433.png",
-    "Pasted image 20240706070313.png",
-    "Pasted image 20240706070237.png",
-    "Pasted image 20240706070217.png",
-    "Pasted image 20240706070150.png",
-    "Pasted image 20240706070125.png",
-    "Pasted image 20240706070100.png",
     "Startup.md",
     "Career.md",
     "Interview/Cheatsheets/Big O Cheatsheet.md",
@@ -179,13 +186,10 @@
     "Project Idea.md",
     "Books/Pragmatic Programmer/C6 Concurrency",
     "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
-    "Books/Pragmatic Programmer/C3 Basic Tools.md",
-    "Books/Pragmatic Programmer/C1 Pragmatic Philosophy.md",
     "Books/Pragmatic Programmer/images",
     "Books/System Design Insiders Guide/Images",
     "Books/System Design 1",
     "Personal Finance",
-    "CSharp",
-    "Books/System Design Insiders Guide"
+    "CSharp"
   ]
 }

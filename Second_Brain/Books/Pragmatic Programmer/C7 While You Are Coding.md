@@ -192,7 +192,7 @@ What is a property test?
 Back: a type of software testing (usually unit-scoped) that allows developers to test software systems by defining properties (or invariants) that should hold true for a range of inputs.
 
 Below we define our properties with the given function decorator and the test with run with different inputs within the given properties and their constraints.
-![[Pasted image 20240704163313.png]]
+![[propertyTesting.png]]
 <!--ID: 1720132347434-->
 END
 

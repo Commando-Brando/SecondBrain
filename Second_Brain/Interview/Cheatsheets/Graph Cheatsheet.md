@@ -14,7 +14,7 @@ Graphs consist of a set of..
 - **vertices**, which are also referred to as nodes
     - Nodes that are directly connected by an edge are commonly referred to as **neighbors**.
 - **edges**, connections between pairs of vertices
-![[Pasted image 20240706070100.png]]
+![[graph1.png]]
 ### **Graph types**
 
 ### **Directed & undirected graphs**
@@ -22,7 +22,7 @@ Graphs consist of a set of..
 A **directed** graph is a graph that in which all edges are associated with a direction. An example of a directed edge would be a one way street.
 
 An **undirected** graph is a graph in which all edges do not have a direction. An example of this would be a friendship!
-![[Pasted image 20240706070125.png]]
+![[daggraph.png]]
 ### **Cyclic & acyclic graphs**
 
 Before going over the what cyclic and acyclic graphs are, there are two key terms to cover: **path** and **cycle**. A **path** is a sequence of vertices connected by edges and a **cycle** a path whose first and last vertices are the same.
@@ -30,7 +30,7 @@ Before going over the what cyclic and acyclic graphs are, there are two key term
 A **cyclic** graph means that there contains a least one cycle within the graph.
 
 An **acyclic** graph has no cycles within it.
-![[Pasted image 20240706070150.png]]
+![[acycgraph.png]]
 A commonly used phrase when referring to graphs is a **directed acylic graph (DAG)**, which is a directed graph in which there are _no_ cycles. In a DAG, these two terms are commonly used to denote nodes with special properties:
 
 - **Sink** nodes have no outgoing edges, only incoming edges
@@ -39,7 +39,7 @@ A commonly used phrase when referring to graphs is a **directed acylic graph (D
 ### **Graph representations**
 
 In this section we discuss two potential ways graphs are represented in text. For both representations we will use the following graph example.
-![[Pasted image 20240706070217.png]]
+![[fulldag.png]]
 The graph above have the following qualities:
 
 - Total of 5 nodes with the data values A, B, C, D, and E.
@@ -52,7 +52,7 @@ The graph above have the following qualities:
 ### **Adjacency lists**
 
 **Adjacency list** is the most common way to represent graphs. With this approach of representing a graph, each node stores a list of its adjacent vertices. For undirected graphs, each edge from _u_ to _v_ would be stored twice: once in _u_'s list of neighbors and once in _v_'s list of neighbors.
-![[Pasted image 20240706070237.png]]
+![[fulldag2.png]]
 
 `Adjacency list:
 
@@ -61,7 +61,7 @@ graph = { 'A': ['B', 'C'] 'B': ['C', 'E'] 'C': ['D'] 'D': ['E'] }`
 ### **Edge sets/ lists**
 
 An **edge set** simply represents a graph as a collection of all its edges.
-![[Pasted image 20240706070313.png]]
+![[fulldag3.png]]
 `Edge List:
 
 graph = [ ('A', 'B'), ('B', 'C'), ('B', 'E'), ('C', 'D'), ('D', 'E') ]`
@@ -69,8 +69,8 @@ graph = [ ('A', 'B'), ('B', 'C'), ('B', 'E'), ('C', 'D'), ('D', 'E') ]`
 ### **Adjacency matrix**
 
 An **adjacency matrix** represents a graph with _n_ nodes as a _n_ by _n_ boolean matrix, in which matrix[_u_][_v_] is set to true if an edge exists from node _u_ to node _v_.
-![[Pasted image 20240706070433.png]]
-![[Pasted image 20240706070443.png]]
+![[fulldag4.png]]
+![[fulldag5.png]]
 In this example, we assign each node an index. We will assign the following indices:
 
 - A = 0
