@@ -11,8 +11,12 @@
             "id": "d7812b4754951e0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Travel/DC.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Cheatsheets/images/queuecs.png",
+                "file": "Travel/DC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Cheatsheets/images/queuecs.png",
+                "file": "Travel/DC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Cheatsheets/images/queuecs.png"
+                "file": "Travel/DC.md"
               }
             }
           }
@@ -143,8 +147,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "d31f484b331c7c53",
+  "active": "d7812b4754951e0f",
   "lastOpenFiles": [
+    "Interview/Cheatsheets/images/queuecs.png",
+    "Travel/DC.md",
+    "Travel",
     "Interview/Cheatsheets/images/stackcs.png",
     "Interview/Cheatsheets/images/fulldag5.png",
     "Interview/Cheatsheets/images/fulldag4.png",
@@ -155,7 +162,6 @@
     "Interview/Cheatsheets/images/acycgraph.png",
     "Interview/Cheatsheets/images/daggraph.png",
     "Interview/Cheatsheets/images/traversingcheat.png",
-    "Books/Pragmatic Programmer/images/propertyTesting.png",
     "Interview/Cheatsheets/ima.md",
     "Interview/Cheatsheets/images",
     "Interview/Cheatsheets/Strings & Arrays Cheatsheet.md",
@@ -185,11 +191,9 @@
     "Projects.md",
     "Project Idea.md",
     "Books/Pragmatic Programmer/C6 Concurrency",
-    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
     "Books/Pragmatic Programmer/images",
     "Books/System Design Insiders Guide/Images",
     "Books/System Design 1",
-    "Personal Finance",
-    "CSharp"
+    "Personal Finance"
   ]
 }
