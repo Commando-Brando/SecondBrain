@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Travel/DC.md",
+                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Travel/DC.md",
+                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Travel/DC.md",
+                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Travel/DC.md"
+                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md"
               }
             }
           }
@@ -149,8 +149,13 @@
   },
   "active": "d7812b4754951e0f",
   "lastOpenFiles": [
-    "Interview/Cheatsheets/images/queuecs.png",
+    "Books/Pragmatic Programmer/images/propertyTesting.png",
+    "AI/Msft AI Beginners/Lesson 1.md",
+    "AI/Articles.md",
+    "AI/Msft AI Beginners",
     "Travel/DC.md",
+    "AI",
+    "Interview/Cheatsheets/images/queuecs.png",
     "Travel",
     "Interview/Cheatsheets/images/stackcs.png",
     "Interview/Cheatsheets/images/fulldag5.png",
@@ -161,7 +166,6 @@
     "Interview/Cheatsheets/images/graph1.png",
     "Interview/Cheatsheets/images/acycgraph.png",
     "Interview/Cheatsheets/images/daggraph.png",
-    "Interview/Cheatsheets/images/traversingcheat.png",
     "Interview/Cheatsheets/ima.md",
     "Interview/Cheatsheets/images",
     "Interview/Cheatsheets/Strings & Arrays Cheatsheet.md",
@@ -188,12 +192,8 @@
     "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md",
     "Development/Web/CSS Resources.md",
     "Development",
-    "Projects.md",
-    "Project Idea.md",
     "Books/Pragmatic Programmer/C6 Concurrency",
     "Books/Pragmatic Programmer/images",
-    "Books/System Design Insiders Guide/Images",
-    "Books/System Design 1",
-    "Personal Finance"
+    "Books/System Design Insiders Guide/Images"
   ]
 }

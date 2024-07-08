@@ -8,33 +8,16 @@ Page 191-242
 - You have very limited brain power in a day at a certain point problem solving has very diminishing returns and you should just call it a day instead of working late, listen to your brain/body when it says it has had enough and needs to process the info
 
 ## Not just your code
-Basically when reading someone else's code that codes different not worse/better but different try to understand the patterns they are applying and how they are thinking to get to this solution and it can help you understand other code better and potentially learn something new 
+Basically when reading someone else's code that codes different not worse/better but different try to understand the patterns they are applying and how they are thinking to get to this solution and it can help you understand other code better and potentially learn something new.
 
 ## Deliberate Programming
-- Always be aware of what you are doing. Fred let things get slowly out of
-hand, until he ended up boiled, like the frog on page 8.
-- Can you explain the code, in detail, to a more junior programmer? If not,
-perhaps you are relying on coincidences.
-- Don’t code in the dark. Build an application you don’t fully grasp, or use
-a technology you don’t understand, and you’ll likely be bitten by coincidences.
-If you’re not sure why it works, you won’t know why it fails.
-- Document your assumptions. Topic 23, Design by Contract, on page 104,
-can help clarify your assumptions in your own mind, as well as help
-communicate them to others.
-- Don’t just test your code, but test your assumptions as well. Don’t guess;
-actually try it. Write an assertion to test your assumptions (see Topic 25,
-Assertive Programming, on page 115). If your assertion is right, you have
-improved the documentation in your code. If you discover your assumption
-is wrong, then count yourself lucky.
-- Prioritize your effort. Spend time on the important aspects; more than
-likely, these are the hard parts. If you don’t have fundamentals or
-infrastructure correct, brilliant bells and whistles will be irrelevant.
-- Don’t be a slave to history. Don’t let existing code dictate future code. All
-code can be replaced if it is no longer appropriate. Even within one program,
-don’t let what you’ve already done constrain what you do next—be
-ready to refactor (see Topic 40, Refactoring, on page 209). This decision
-may impact the project schedule. The assumption is that the impact will
-be less than the cost of not making the change
+- Always be aware of what you are doing. Fred let things get slowly out of hand, until he ended up boiled, like the frog on page 8.
+- Can you explain the code, in detail, to a more junior programmer? If not, perhaps you are relying on coincidences.
+- Don’t code in the dark. Build an application you don’t fully grasp, or use a technology you don’t understand, and you’ll likely be bitten by coincidences. If you’re not sure why it works, you won’t know why it fails.
+- Document your assumptions. Topic 23, Design by Contract, on page 104, can help clarify your assumptions in your own mind, as well as help communicate them to others.
+- Don’t just test your code, but test your assumptions as well. Don’t guess; actually try it. Write an assertion to test your assumptions (see Topic 25, Assertive Programming, on page 115). If your assertion is right, you have improved the documentation in your code. If you discover your assumption is wrong, then count yourself lucky.
+- Prioritize your effort. Spend time on the important aspects; more than likely, these are the hard parts. If you don’t have fundamentals or infrastructure correct, brilliant bells and whistles will be irrelevant.
+- Don’t be a slave to history. Don’t let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don’t let what you’ve already done constrain what you do next—be ready to refactor (see Topic 40, Refactoring, on page 209). This decision may impact the project schedule. The assumption is that the impact will be less than the cost of not making the change
 
 ## O Notation
 
@@ -53,13 +36,11 @@ element in the array in turn, and the inner loop works out where to place
 that element in the sorted result. Such sorting algorithms tend to be
 O (n2).
 
-
 **Binary chop**
 If your algorithm halves the set of things it considers each time around
 the loop, then it is likely to be logarithmic, O (lg n). A binary search of a
 sorted list, traversing a binary tree, and finding the first set bit in a
 machine word can all be O (lg n).
-
 
 **Divide and conquer**
 Algorithms that partition their input work on the two halves independently,
@@ -69,7 +50,6 @@ recursively sorting each. Although technically O (n2), because its behavior
 degrades when it is fed sorted input, the average runtime of quicksort is
 O (n lg n).
 
-
 **Combinatoric**
 Whenever algorithms start looking at the permutations of things, their
 running times may get out of hand. This is because permutations involve
@@ -78,23 +58,15 @@ from 1 to 5). Time a combinatoric algorithm for five elements: it will take
 six times longer to run it for six, and 42 times longer for seven. Examples
 include algorithms for many of the acknowledged hard problems—the
 traveling salesman problem, optimally packing things into a container
-
 ## Refactoring
 Think of tech debt as a growth. It only requires a minor invasive procedure to remove now but later it will grow and spread which makes the procedure more invasive and dangerous. Wait too long and you might lose the patient entirely.
 
 Martin Fowler offers the following simple tips on how to
 refactor without doing more harm than good:7
 1. Don’t try to refactor and add functionality at the same time.
-2. Make sure you have good tests before you begin refactoring. Run the tests
-as often as possible. That way you will know quickly if your changes have
-broken anything.
-3. Take short, deliberate steps: move a field from one class to another, split
-a method, rename a variable. Refactoring often involves making many
-localized changes that result in a larger-scale change. If you keep your
-steps small, and test after each step, you will avoid prolonged debugging.
-
+2. Make sure you have good tests before you begin refactoring. Run the tests as often as possible. That way you will know quickly if your changes have broken anything.
+3. Take short, deliberate steps: move a field from one class to another, split a method, rename a variable. Refactoring often involves making many localized changes that result in a larger-scale change. If you keep your steps small, and test after each step, you will avoid prolonged debugging.
 ## Test to Code
-
 Thinking about how to test your code and sometimes clear ambiguity around the code you are planning to write. Think about test cases first and how the data output should look for you asserts!
 
 Write test function definitions for the test cases before start coding 
@@ -106,13 +78,12 @@ a type of software testing (usually unit-scoped) that allows developers to test 
 Really like the different cyber security points he mentions all good stuff page 232
 
 ## Naming
-
 The example of name of colors colored differently is a brilliant way of illustrating how naming is important. I agree with him naming things can bring clarity which makes code more maintainable and devs more productive. Names should have meaning not just behavior descriptions 
 
 I like his idea of honoring the local naming culture, follow the conventions of the technology and of your team/project.
 
-
-
+## Flashcards
+----------
 START
 Basic
 When you brain is toast and you feel stuck on figuring something out what is the best way to making progress?
