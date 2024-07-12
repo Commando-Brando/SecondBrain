@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+                "file": "Startup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+                "file": "Startup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+                "file": "Startup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Pragmatic Programmer/C7 While You Are Coding.md"
+                "file": "Startup.md"
               }
             }
           }
@@ -149,11 +149,38 @@
   },
   "active": "d7812b4754951e0f",
   "lastOpenFiles": [
-    "Books/Pragmatic Programmer/images/propertyTesting.png",
+    "Social Apps.md",
+    "Development/Python/FastAPI.md",
+    "Development/Python/Web Scraping.md",
+    "Development/Web/TypeScript.md",
+    "Development/Web/Web Performance.md",
+    "Development/Web/NextJS.md",
+    "Development/Web/CSS Resources.md",
+    "Startup.md",
+    "Readings.md",
+    "Projects.md",
+    "Product.md",
+    "Microsoft.md",
+    "Encryption Encoding.md",
+    "Linux.md",
+    "Articles.md",
+    "Academic Research/Anki LLM/Literature Review.md",
+    "AI/Stanford/Machine Learning Lesson 2.md",
+    "Anki.md",
     "AI/Msft AI Beginners/Lesson 1.md",
+    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
+    "AI/Stanford/Machine Learning Lesson 1.md",
     "AI/Articles.md",
+    "Career.md",
+    "Books/Pragmatic Programmer/C8 Before the Project.md",
+    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+    "AI/Stanford/Images",
+    "AI/Stanford/Images/LSA.png",
+    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
+    "AI/Stanford",
+    "Untitled",
+    "Books/Pragmatic Programmer/images/propertyTesting.png",
     "AI/Msft AI Beginners",
-    "Travel/DC.md",
     "AI",
     "Interview/Cheatsheets/images/queuecs.png",
     "Travel",
@@ -164,36 +191,9 @@
     "Interview/Cheatsheets/images/fulldag2.png",
     "Interview/Cheatsheets/images/fulldag.png",
     "Interview/Cheatsheets/images/graph1.png",
-    "Interview/Cheatsheets/images/acycgraph.png",
-    "Interview/Cheatsheets/images/daggraph.png",
-    "Interview/Cheatsheets/ima.md",
     "Interview/Cheatsheets/images",
-    "Interview/Cheatsheets/Strings & Arrays Cheatsheet.md",
-    "Interview/Cheatsheets/Stacks and Queues Cheatsheet.md",
-    "Interview/Cheatsheets/Linked List Cheatsheet.md",
-    "Interview/Cheatsheets/Hash Tables Cheatsheet.md",
-    "Interview/Cheatsheets/Binary Trees Cheatsheet.md",
-    "Interview/Cheatsheets/Backtracking Cheat Sheet.md",
-    "Interview/Cheatsheets/Graph Cheatsheet.md",
-    "Startup.md",
-    "Career.md",
-    "Interview/Cheatsheets/Big O Cheatsheet.md",
-    "Interview/Cheatsheets/UMPIRE Cheatsheet.md",
-    "Interview/Technical Interview Prep.md",
     "Interview/Cheatsheets",
     "Interview",
-    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
-    "Anki.md",
-    "Books/Pragmatic Programmer/C6 Concurrency.md",
-    "Microsoft.md",
-    "Databases.md",
-    "Books/Pragmatic Programmer/C5 Bend or Break.md",
-    "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md",
-    "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md",
-    "Development/Web/CSS Resources.md",
-    "Development",
-    "Books/Pragmatic Programmer/C6 Concurrency",
-    "Books/Pragmatic Programmer/images",
-    "Books/System Design Insiders Guide/Images"
+    "Development"
   ]
 }

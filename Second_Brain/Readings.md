@@ -14,5 +14,6 @@
 - [React Ecosystem 2024](https://dev.to/avinashvagh/react-ecosystem-in-2024-418k?utm_source=tldrwebdev)
 - **[One Easy Way to Optimize React Re-Renders](https://medium.com/@younusraza909/one-easy-way-to-optimize-react-re-renders-abcb67d0252c)**
 - **[Organizing multiple Git identities](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities?utm_source=tldrwebdev)**
+- [Imessage Explained](https://jjtech.dev/reverse-engineering/imessage-explained)
 
 Added stuff
