@@ -67,17 +67,16 @@ END
 
 START
 Basic
-This is a test.
-Back: Test successful!
-<!--ID: 1720551593884-->
-END
 When trying to figure out a solution for a hard problem what should you keep in mind?
-- Challenge any constraints you initialize think
+Back:
+ Challenge any constraints you initialize think
 - Identify what are hard constraints and consider how to approach the problem with the most restrictive constraints in mind
 - A lot of the time trying some paths that may seem unlikely should be explored as they may be better than the solution that seems more obvious
 
 "When faced with an intractable problem, enumerate all the possible avenues you have before you. Don’t dismiss anything, no matter how unusable or stupid it sounds. Now go through the list and explain why a certain path cannot be taken. Are you sure? Can you prove it?"
 - Pragmatic Programmer page 254
+<!--ID: 1720551593884-->
+END
 
 ---
 

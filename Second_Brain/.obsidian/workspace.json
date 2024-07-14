@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security.md",
+                "file": "Books/Pragmatic Programmer/C8 Before the Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Security.md",
+                "file": "Books/Pragmatic Programmer/C8 Before the Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Security.md",
+                "file": "Books/Pragmatic Programmer/C8 Before the Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Security.md"
+                "file": "Books/Pragmatic Programmer/C8 Before the Project.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "d7812b4754951e0f",
   "lastOpenFiles": [
+    "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md",
+    "Cyber Security.md",
     "Travel/DC.md",
     "Development/Web/NextJS.md",
     "Books/Pragmatic Programmer/C8 Before the Project.md",
@@ -174,8 +176,6 @@
     "Encryption Encoding.md",
     "Linux.md",
     "Articles.md",
-    "Academic Research/Anki LLM/Literature Review.md",
-    "AI/Stanford/Machine Learning Lesson 2.md",
     "AI/Stanford/Images",
     "AI/Stanford/Images/LSA.png",
     "AI/Stanford",
