@@ -1,5 +1,6 @@
 TARGET DECK: Pragmatic Programmer::C8 Before the Project
 
+# Notes
 ## Requirements
 - Great section
 As early machines were
@@ -30,7 +31,7 @@ ebooks?
 ## Group Questions
 - Does anyone pair program at work?
 
-## Flashcards
+# Flashcards
 
 START
 Basic

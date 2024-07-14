@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Startup.md",
+                "file": "Cyber Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Startup.md",
+                "file": "Cyber Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Startup.md",
+                "file": "Cyber Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Startup.md"
+                "file": "Cyber Security.md"
               }
             }
           }
@@ -144,19 +144,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "d7812b4754951e0f",
   "lastOpenFiles": [
+    "Travel/DC.md",
+    "Development/Web/NextJS.md",
+    "Books/Pragmatic Programmer/C8 Before the Project.md",
+    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+    "Books/Pragmatic Programmer/C6 Concurrency.md",
+    "Books/Pragmatic Programmer/C4 Pragmatic Paranoia.md",
+    "Books/Pragmatic Programmer/C1 Pragmatic Philosophy.md",
+    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
+    "Books/Pragmatic Programmer/C3 Basic Tools.md",
+    "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
+    "Startup.md",
     "Social Apps.md",
     "Development/Python/FastAPI.md",
     "Development/Python/Web Scraping.md",
     "Development/Web/TypeScript.md",
     "Development/Web/Web Performance.md",
-    "Development/Web/NextJS.md",
     "Development/Web/CSS Resources.md",
-    "Startup.md",
     "Readings.md",
     "Projects.md",
     "Product.md",
@@ -166,17 +176,8 @@
     "Articles.md",
     "Academic Research/Anki LLM/Literature Review.md",
     "AI/Stanford/Machine Learning Lesson 2.md",
-    "Anki.md",
-    "AI/Msft AI Beginners/Lesson 1.md",
-    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md",
-    "AI/Stanford/Machine Learning Lesson 1.md",
-    "AI/Articles.md",
-    "Career.md",
-    "Books/Pragmatic Programmer/C8 Before the Project.md",
-    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
     "AI/Stanford/Images",
     "AI/Stanford/Images/LSA.png",
-    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
     "AI/Stanford",
     "Untitled",
     "Books/Pragmatic Programmer/images/propertyTesting.png",
