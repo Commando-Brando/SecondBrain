@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1179159fd2f88776",
+        "id": "a67c2ef3b929dd73",
         "type": "tabs",
         "children": [
           {
-            "id": "d7812b4754951e0f",
+            "id": "8d5be8e0e0dd418a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f643e02a38bf70a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Startup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Pragmatic Programmer/C8 Before the Project.md",
+                "file": "Startup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Pragmatic Programmer/C8 Before the Project.md",
+                "file": "Startup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Pragmatic Programmer/C8 Before the Project.md"
+                "file": "Startup.md"
               }
             }
           }
@@ -148,22 +161,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d7812b4754951e0f",
+  "active": "f643e02a38bf70a4",
   "lastOpenFiles": [
+    "new notes.md",
+    "Startup.md",
+    "Pasted image 20240716084218.png",
+    "Books/Pragmatic Programmer/C8 Before the Project.md",
+    "Anki.md",
+    "Social Apps.md",
+    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
+    "Books/SWE Guidebook/SWE Guidebook General.md",
+    "Books/SWE Guidebook/Questions.md",
     "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md",
     "Cyber Security.md",
     "Travel/DC.md",
     "Development/Web/NextJS.md",
-    "Books/Pragmatic Programmer/C8 Before the Project.md",
-    "Books/Pragmatic Programmer/C7 While You Are Coding.md",
     "Books/Pragmatic Programmer/C6 Concurrency.md",
     "Books/Pragmatic Programmer/C4 Pragmatic Paranoia.md",
     "Books/Pragmatic Programmer/C1 Pragmatic Philosophy.md",
     "Books/Pragmatic Programmer/C2 Pragmatic Approach.md",
     "Books/Pragmatic Programmer/C3 Basic Tools.md",
     "Books/Designing Data Intensive Applications/Chapter 9 Consistency & Consensus.md",
-    "Startup.md",
-    "Social Apps.md",
     "Development/Python/FastAPI.md",
     "Development/Python/Web Scraping.md",
     "Development/Web/TypeScript.md",
@@ -171,11 +189,6 @@
     "Development/Web/CSS Resources.md",
     "Readings.md",
     "Projects.md",
-    "Product.md",
-    "Microsoft.md",
-    "Encryption Encoding.md",
-    "Linux.md",
-    "Articles.md",
     "AI/Stanford/Images",
     "AI/Stanford/Images/LSA.png",
     "AI/Stanford",
@@ -191,7 +204,6 @@
     "Interview/Cheatsheets/images/fulldag3.png",
     "Interview/Cheatsheets/images/fulldag2.png",
     "Interview/Cheatsheets/images/fulldag.png",
-    "Interview/Cheatsheets/images/graph1.png",
     "Interview/Cheatsheets/images",
     "Interview/Cheatsheets",
     "Interview",

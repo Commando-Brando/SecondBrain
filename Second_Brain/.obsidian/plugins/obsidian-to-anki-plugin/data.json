@@ -3,7 +3,7 @@
     "CUSTOM_REGEXPS": {
       "1- simple": "",
       "2- cloze ": "",
-      "Basic": "",
+      "Basic": "^Q: ((?:.+\\n)*)\\n*A: (.*(?:\\n(?!END).*)*)",
       "Basic (type in the answer)-d5c56": "",
       "Basic Card": "",
       "Basic+": "",
@@ -85,7 +85,9 @@
       "UVBasic-English": "英语单词",
       "红宝书": "单词"
     },
-    "CONTEXT_FIELDS": {},
+    "CONTEXT_FIELDS": {
+      "Basic": "Front"
+    },
     "FOLDER_DECKS": {
       "Academic Research": "",
       "Books": "",
@@ -102,7 +104,18 @@
       "Academic Research/Anki LLM/Images": "",
       "Books/Designing Data Intensive Applications/Images": "",
       "Books/System Design Insiders Guide/Images": "",
-      "Books/Pragmatic Programmer/images": ""
+      "Books/Pragmatic Programmer/images": "",
+      "AI": "",
+      "Development": "",
+      "Interview": "",
+      "Travel": "",
+      "AI/Msft AI Beginners": "",
+      "AI/Stanford": "",
+      "Development/Python": "",
+      "Development/Web": "",
+      "Interview/Cheatsheets": "",
+      "AI/Stanford/Images": "",
+      "Interview/Cheatsheets/images": ""
     },
     "FOLDER_TAGS": {
       "Academic Research": "",
@@ -120,7 +133,18 @@
       "Academic Research/Anki LLM/Images": "",
       "Books/Designing Data Intensive Applications/Images": "",
       "Books/System Design Insiders Guide/Images": "",
-      "Books/Pragmatic Programmer/images": ""
+      "Books/Pragmatic Programmer/images": "",
+      "AI": "",
+      "Development": "",
+      "Interview": "",
+      "Travel": "",
+      "AI/Msft AI Beginners": "",
+      "AI/Stanford": "",
+      "Development/Python": "",
+      "Development/Web": "",
+      "Interview/Cheatsheets": "",
+      "AI/Stanford/Images": "",
+      "Interview/Cheatsheets/images": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -156,12 +180,13 @@
     "Pasted image 20240704163313.png",
     "propertyTesting.png",
     "data_trans5.png",
-    "LSA.png"
+    "LSA.png",
+    "Pasted image 20240716084218.png"
   ],
   "File Hashes": {
     "Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
     "Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
-    "Startup.md": "b07933be74ef2e72a015f98b9a73da9a",
+    "Startup.md": "fce1a14d0ba9c76141b96c5e25359ac9",
     "Social Apps.md": "d7ce127069a8e76d3d93b76505c003be",
     "Self-Hosted.md": "88c0c31bcba53556008b5df0c162b02f",
     "Readings.md": "bed9bb1923dbbb9da3f75cfaae81fe95",
@@ -213,7 +238,7 @@
     "Development/Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
     "Development/Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
     "Development/Python/FastAPI.md": "d41d8cd98f00b204e9800998ecf8427e",
-    "Anki.md": "c564d0df2c51571a73da64e59d8650c8",
+    "Anki.md": "92f002f1ac1dfd1bf0cb45bbcee15962",
     "Books/System Design Insiders Guide/CHAPTER 3 A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS.md": "db57ce1ace245d190a9fb8d54a6038a8",
     "Books/Pragmatic Programmer/C6 Concurrency.md": "f0f92ab2e89d8296d9251a6284cb8311",
     "Books/Pragmatic Programmer/C7 While You Are Coding.md": "b044944847432850805333980f9897d1",
@@ -233,9 +258,10 @@
     "Interview/Cheatsheets/Big O Cheatsheet.md": "8f59cdd3fe27ac49fb32678fe3c6325f",
     "Interview/Cheatsheets/UMPIRE Cheatsheet.md": "a3eb4face8ab24d1309bc92d5e605c9c",
     "Interview/Technical Interview Prep.md": "ef98e53b8d57c50bca56174a5f3910dd",
-    "Books/Pragmatic Programmer/C8 Before the Project.md": "33b39b4668420798a0ab29a02a1a6559",
+    "Books/Pragmatic Programmer/C8 Before the Project.md": "dda5e5f0685776274fed871a0805f6fb",
     "Development/Web/TypeScript.md": "deec9dfc8501ec88d84f50c8dea3cead",
-    "Development/Python/Web Scraping.md": "438c95c3222cd8c29c2aad5571688479"
+    "Development/Python/Web Scraping.md": "438c95c3222cd8c29c2aad5571688479",
+    "new notes.md": "f8dfa1ccdd8727d3dfbdf55ed6041639"
   },
   "fields_dict": {
     "1- simple": [

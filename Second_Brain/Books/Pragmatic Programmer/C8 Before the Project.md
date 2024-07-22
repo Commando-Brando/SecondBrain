@@ -3,12 +3,7 @@ TARGET DECK: Pragmatic Programmer::C8 Before the Project
 # Notes
 ## Requirements
 - Great section
-As early machines were
-fairly limited, the scope of problems they solved was constrained: it was
-actually possible to understand the whole problem before you started.
-But that is not the real world. The real world is messy, conflicted, and
-unknown. In that world, exact specifications of anything are rare, if not
-downright impossible.
+As early machines were fairly limited, the scope of problems they solved was constrained: it was actually possible to understand the whole problem before you started. But that is not the real world. The real world is messy, conflicted, and unknown. In that world, exact specifications of anything are rare, if not downright impossible.
 
 Whenever you get a new requirement what should you do?
 Avoid the pitfall of immediately coming up with a solution. Identify and edge cases and concerns and clarify them with the client.
@@ -21,12 +16,10 @@ Stop for second and try to think of edge cases and clarifying questions. For the
 
 • Does the $50 include tax?
 • Does the $50 include current shipping charges?
-• Does the $50 have to be for paper books, or can the order also include
-ebooks?
+• Does the $50 have to be for paper books, or can the order also include ebooks?
 • What kind of shipping is offered? Priority? Ground?
 • What about international orders?
 • How often will the $50 limit change in the future?
-
 
 ## Group Questions
 - Does anyone pair program at work?

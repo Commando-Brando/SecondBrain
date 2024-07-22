@@ -37,5 +37,27 @@ Three things that seem bad but are good
 - Look for new variants on existing successful companies
 - Go and talk to people and ask them what problems they have
 
+## Tarpit Ideas
+[Video Link](https://www.youtube.com/watch?v=GMIawSAygO4&t=1134s)
+Idea that a lot of people try, fail, and are unable to pivot to something else in time that the startup dies.
+These ideas are usually have ambiguous and motivated incorrectly
 
 
+## Launching
+- Make a product hunt submission (time it correctly)
+- Make reddit post on relevant subreddit
+- Make hackernews post
+- Make posts on niche forums/sites related to the product
+
+## Growth
+- Seek organic growth, inorganic growth like ads is not sustainable 
+- Capture users email by hooking them in with some kind of statement
+	- Example: on page say subscribe for discounts by entering your email in text box
+- Relaunch whenever you have new big features every 4-12 months to get some good marketing
+- Automate tasks constantly to free up time to build more SASS
+- Eventually hire one person to manage AI/automated processes if a SASS takes off
+
+## Monetization
+- Always monetize somehow, don't let free haters get to you
+- Subscriptions are better way than one time high payment
+- Exiting (selling SASS to company) sell usually for the amount of revenue brought in times some amount based on growth rate
