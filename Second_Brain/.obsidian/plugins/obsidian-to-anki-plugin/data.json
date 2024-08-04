@@ -3,7 +3,7 @@
     "CUSTOM_REGEXPS": {
       "1- simple": "",
       "2- cloze ": "",
-      "Basic": "^Q: ((?:.+\\n)*)\\n*A: (.*(?:\\n(?!END).*)*)",
+      "Basic": "^Q: ((?:.+\\n)*)\\n*A: (.+(?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))*)",
       "Basic (type in the answer)-d5c56": "",
       "Basic Card": "",
       "Basic+": "",
@@ -115,7 +115,10 @@
       "Development/Web": "",
       "Interview/Cheatsheets": "",
       "AI/Stanford/Images": "",
-      "Interview/Cheatsheets/images": ""
+      "Interview/Cheatsheets/images": "",
+      "Tech Stack": "",
+      "Tech Stack/NextJs": "",
+      "Tech Stack/NextJs/img": ""
     },
     "FOLDER_TAGS": {
       "Academic Research": "",
@@ -144,7 +147,10 @@
       "Development/Web": "",
       "Interview/Cheatsheets": "",
       "AI/Stanford/Images": "",
-      "Interview/Cheatsheets/images": ""
+      "Interview/Cheatsheets/images": "",
+      "Tech Stack": "",
+      "Tech Stack/NextJs": "",
+      "Tech Stack/NextJs/img": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -181,12 +187,20 @@
     "propertyTesting.png",
     "data_trans5.png",
     "LSA.png",
-    "Pasted image 20240716084218.png"
+    "Pasted image 20240716084218.png",
+    "NextImageConfig.png",
+    "Pasted image 20240727072901.png",
+    "Pasted image 20240608182145.png",
+    "Pasted image 20240608182228.png",
+    "Pasted image 20240608182755.png",
+    "Pasted image 20240608183926.png",
+    "Pasted image 20240608184832.png",
+    "Pasted image 20240608191000.png"
   ],
   "File Hashes": {
     "Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
     "Web/NextJS.md": "8f3338aa915170e7c6ce32a310a738fa",
-    "Startup.md": "fce1a14d0ba9c76141b96c5e25359ac9",
+    "Startup.md": "cf681fd16e65a8a56b75563588b4a1b3",
     "Social Apps.md": "d7ce127069a8e76d3d93b76505c003be",
     "Self-Hosted.md": "88c0c31bcba53556008b5df0c162b02f",
     "Readings.md": "bed9bb1923dbbb9da3f75cfaae81fe95",
@@ -202,10 +216,10 @@
     "Databases.md": "7311d57f3394b391e91e9fafaf3e849c",
     "Cyber Security.md": "dab66f8b8f41756a5f2adbb5609bfb9b",
     "Code Styling.md": "9ed632a4f6840b7ef845876d33e27aff",
-    "Career.md": "09700ed09664d43f0cf387459fdbbf42",
+    "Career.md": "f517099d389b84fac745db5def813580",
     "CSharp/Basics.md": "55733a1cc9a583d453c39871d6b566ee",
     "Books/System Design Insiders Guide/Chapter 2 BACK-OF-THE-ENVELOPE ESTIMATION.md": "33401c991ff9bd887f28088191411492",
-    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md": "64148f0bdb25d735148bc0bba59193bb",
+    "Books/System Design Insiders Guide/Chapter 1 Scale From Zero to Millions Of Users.md": "51efed156067568b47089c3577f378d9",
     "Books/SWE Guidebook/SWE Guidebook General.md": "f7652790c4ba6298095b18ac2a08f413",
     "Books/SWE Guidebook/Questions.md": "97cb5da7357bccd6e8f11a589022e25d",
     "Books/Pragmatic Programmer/Notes.md": "0a059b69ae035a73e7dc8a19308f3d34",
@@ -232,7 +246,7 @@
     "Books/Pragmatic Programmer/C5 Bend or Break.md": "9009d122af3f0f5af229920347893806",
     "Books/Pragmatic Programmer/C4 Pragmatic Paranoia.md": "e57fdddfa1324c224f124b51c750aa8c",
     "Books/Pragmatic Programmer/C3 Basic Tools.md": "7b8c8339cfff5b5f630a4bf3dda34dd7",
-    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md": "2417d55f843579650289461515f493c0",
+    "Books/Pragmatic Programmer/C2 Pragmatic Approach.md": "7f865e6f4fa33f158ffaff4d72207ad8",
     "Books/Pragmatic Programmer/C1 Pragmatic Philosophy.md": "d41d8cd98f00b204e9800998ecf8427e",
     "Development/Web/CSS Resources.md": "9a4a9b01f035420b2f215c21daf70650",
     "Development/Web/Web Performance.md": "97acf7a48a09662e3518dae28edaf9c4",
@@ -261,7 +275,18 @@
     "Books/Pragmatic Programmer/C8 Before the Project.md": "dda5e5f0685776274fed871a0805f6fb",
     "Development/Web/TypeScript.md": "deec9dfc8501ec88d84f50c8dea3cead",
     "Development/Python/Web Scraping.md": "438c95c3222cd8c29c2aad5571688479",
-    "new notes.md": "f8dfa1ccdd8727d3dfbdf55ed6041639"
+    "new notes.md": "f8dfa1ccdd8727d3dfbdf55ed6041639",
+    "Tech Stack/NextJs/Rendering.md": "e55a60d491b1c63746018b5e839c60a5",
+    "Tech Stack/NextJs/File Structure.md": "0d2a48a865253519fbcc57f5040c1172",
+    "Tech Stack/NextJs/Config.md": "9ec813f1f3f49184fb07c398886b3efd",
+    "Tech Stack/NextJs/Commands.md": "a8b91e6eda7e3e7893d65c4b4f922699",
+    "Tech Stack/Goals.md": "5d3257d2a3034f4eb17bf6b86914a1fa",
+    "Tech Stack/Database.md": "f35a1f012657f8f50dfcd81d9bda15a3",
+    "Tech Stack/NextJs/Flashcards.md": "ed50a96614cbffbdd235d437cdf3b080",
+    "Books/Pragmatic Programmer/C9 Pragmatic Projects.md": "c814f56adf865edcd1f49ad1c8afb6ff",
+    "Templates/AnkiBatch.md": "c163c46f70c1e359bed14b85f8526e59",
+    "Templates/Study.md": "2d905ab6a7b14b41ee27bc148d7a8450",
+    "Templates/Anki.md": "44fe2ab79502c905b6bb8a6cfd789852"
   },
   "fields_dict": {
     "1- simple": [
